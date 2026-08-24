@@ -6,7 +6,7 @@ const cors = {
   "Access-Control-Allow-Headers": "Content-Type",
 };
 
-const ALL_KEY = "all-reviews";
+const ALL_KEY = "all-reviews-v2";
 
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
