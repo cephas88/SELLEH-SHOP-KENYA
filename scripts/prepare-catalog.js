@@ -25,18 +25,13 @@ function charmPrice(n) {
   const p = Math.round(Number(n) || 0);
   if (p <= 0) return 999;
   if (p < 100) return p;
-  // Already charm (ends 99 or 49)
+  // Already ends in 99 or 49
   if (p % 100 === 99 || p % 100 === 49) return p;
-  // Round thousands: 26000 -> 25999
-  if (p % 1000 === 0) return p - 1;
-  // x500: 4500 -> 4499
-  if (p % 500 === 0) return p - 1;
-  // x00: 3500 already handled; 3200 -> 3199
+  // 26000 -> 25999, 4500 -> 4499, 3200 -> 3199
   if (p % 100 === 0) return p - 1;
-  // x50: 4550 -> 4499
-  if (p % 50 === 0) return p - 51 + 50 - 1; // fall through safer:
-  if (p % 50 === 0) return Math.floor(p / 100) * 100 - 1 + (p % 100 === 50 ? 0 : 0);
-  // Generic: floor to nearest 100 then -1
+  // 4550 -> 4499
+  if (p % 50 === 0) return Math.floor(p / 100) * 100 - 1;
+  // e.g. 4720 -> 4699, 4780 -> 4799
   const base = Math.floor(p / 100) * 100;
   if (p - base < 50) return Math.max(base - 1, 99);
   return base + 99;
@@ -44,14 +39,13 @@ function charmPrice(n) {
 
 function applyCharm(p) {
   const price = charmPrice(p.price);
-  const out = { ...p, price, inStock: true };
+  const out = Object.assign({}, p, { price: price, inStock: true });
   if (p.oldPrice != null && p.oldPrice !== "") {
     const old = charmPrice(p.oldPrice);
-    // Keep oldPrice strictly higher than sale price for discount badge
     out.oldPrice = old > price ? old : charmPrice(Math.round(price * 1.25));
-  } else if (price >= 2000 && Math.random() < 0.35) {
-    // Sprinkle realistic was-prices for attraction
-    out.oldPrice = charmPrice(Math.round(price * (1.15 + Math.random() * 0.25)));
+  } else if (price >= 2000 && (slugify(p.name).length % 10) < 4) {
+    // Deterministic "was" prices so builds are stable
+    out.oldPrice = charmPrice(Math.round(price * 1.2));
     if (out.oldPrice <= price) out.oldPrice = price + 1000;
   }
   if (!out.slug) out.slug = slugify(out.name);
@@ -67,36 +61,35 @@ function pick(arr, i) {
   return arr[i % arr.length];
 }
 
-function makeVariant(base, name, price, category, extra = {}) {
+function makeVariant(base, name, price, category, extra) {
+  extra = extra || {};
   const img = (base.images && base.images[0]) || base.image || "";
-  return {
-    name,
+  const v = {
+    name: name,
     category: category || base.category || "General",
     price: charmPrice(price),
-    oldPrice: extra.oldPrice != null ? charmPrice(extra.oldPrice) : undefined,
     image: img,
     images: base.images && base.images.length ? base.images.slice(0, 3) : img ? [img] : [],
     badge: extra.badge != null ? extra.badge : pick(BADGES, name.length),
     description:
       extra.description ||
       (base.description
-        ? base.description.replace(base.name, name).slice(0, 280)
-        : name + " available at Selleh Shop Kenya, Gaborone Plaza, Nairobi. Order on WhatsApp or visit the shop."),
+        ? String(base.description).replace(base.name, name).slice(0, 280)
+        : name +
+          " available at Selleh Shop Kenya, Gaborone Plaza, Nairobi. Order on WhatsApp or visit the shop."),
     inStock: true,
     slug: slugify(name),
     brand: extra.brand || base.brand || "Generic",
   };
+  if (extra.oldPrice != null) v.oldPrice = charmPrice(extra.oldPrice);
+  return v;
 }
 
 function expandFromBase(products) {
-  const byCat = {};
-  products.forEach((p) => {
-    const c = p.category || "General";
-    (byCat[c] = byCat[c] || []).push(p);
-  });
-
   const extra = [];
-  const seen = new Set(products.map((p) => (p.slug || slugify(p.name)).toLowerCase()));
+  const seen = new Set(products.map(function (p) {
+    return (p.slug || slugify(p.name)).toLowerCase();
+  }));
 
   function add(v) {
     const s = (v.slug || slugify(v.name)).toLowerCase();
@@ -105,22 +98,23 @@ function expandFromBase(products) {
     extra.push(v);
   }
 
-  // --- Bikes & mobility variants ---
-  const bikes = products.filter(
-    (p) =>
+  const bikes = products.filter(function (p) {
+    return (
       /bike|bicycle|scooter|tricycle|hoverboard|e-bike/i.test(p.name) ||
       p.category === "Sports & Outdoor" ||
       p.category === "Automotive"
-  );
-  bikes.forEach((b, i) => {
-    SIZES.forEach((sz, j) => {
+    );
+  });
+  bikes.forEach(function (b, i) {
+    SIZES.forEach(function (sz, j) {
       if (/bike|bicycle/i.test(b.name)) {
+        var nm = /\d+\s*[Ii]nch/.test(b.name)
+          ? b.name.replace(/\d+\s*[Ii]nch/, sz) + " – " + pick(COLORS, i + j)
+          : b.name + " – " + sz + " – " + pick(COLORS, i + j);
         add(
           makeVariant(
             b,
-            b.name.replace(/\d+\s*Inch/i, sz).includes(sz)
-              ? b.name + " – " + pick(COLORS, i + j)
-              : b.name.replace(/\d+\s*[Ii]nch/, sz) + " – " + pick(COLORS, i + j),
+            nm,
             Math.round((b.price || 15000) * (0.85 + (j % 5) * 0.06)),
             b.category === "Kids & Baby" ? "Kids & Baby" : "Sports & Outdoor",
             { badge: j % 3 === 0 ? "Hot" : "" }
@@ -128,7 +122,7 @@ function expandFromBase(products) {
         );
       }
     });
-    COLORS.slice(0, 4).forEach((col, j) => {
+    COLORS.slice(0, 4).forEach(function (col, j) {
       if (/scooter|tricycle|hoverboard/i.test(b.name)) {
         add(
           makeVariant(
@@ -143,10 +137,16 @@ function expandFromBase(products) {
     });
   });
 
-  // --- Incubators ---
-  const incubators = products.filter((p) => /incubator|egg/i.test(p.name));
-  const incBase = incubators[0] || products.find((p) => p.category === "Agriculture & Farm") || products[0];
-  EGG_CAPS.forEach((cap, i) => {
+  var incubators = products.filter(function (p) {
+    return /incubator|egg/i.test(p.name);
+  });
+  var incBase =
+    incubators[0] ||
+    products.find(function (p) {
+      return p.category === "Agriculture & Farm";
+    }) ||
+    products[0];
+  EGG_CAPS.forEach(function (cap) {
     add(
       makeVariant(
         incBase,
@@ -174,11 +174,13 @@ function expandFromBase(products) {
     );
   });
 
-  // --- Kitchen / home appliances ---
-  const kitchen = products.filter(
-    (p) => p.category === "Home & Kitchen" || /cooker|blender|fryer|dispenser|kettle|juicer|mincer/i.test(p.name)
-  );
-  const kitTemplates = [
+  var kitchen = products.filter(function (p) {
+    return (
+      p.category === "Home & Kitchen" ||
+      /cooker|blender|fryer|dispenser|kettle|juicer|mincer/i.test(p.name)
+    );
+  });
+  var kitTemplates = [
     ["Air Fryer 5.5L Digital Touch", 7999, "Home & Kitchen"],
     ["Air Fryer 8L Family Size", 9999, "Home & Kitchen"],
     ["Electric Kettle 1.8L Stainless Steel", 1999, "Home & Kitchen"],
@@ -232,13 +234,12 @@ function expandFromBase(products) {
     ["Steam Iron 2400W Ceramic", 3499, "Home & Kitchen"],
     ["Garment Steamer Vertical", 4999, "Home & Kitchen"],
   ];
-  const kBase = kitchen[0] || products[0];
-  kitTemplates.forEach((t, i) => {
+  var kBase = kitchen[0] || products[0];
+  kitTemplates.forEach(function (t, i) {
     add(makeVariant(kBase, t[0], t[1], t[2], { badge: pick(BADGES, i) }));
   });
 
-  // Brand-style kitchen lines
-  ["Ramtons", "Nunix", "Sokany", "Signature", "Roch", "Haier", "Premier"].forEach((brand, bi) => {
+  ["Ramtons", "Nunix", "Sokany", "Signature", "Roch", "Haier", "Premier"].forEach(function (brand, bi) {
     [
       [brand + " Electric Kettle 1.7L", 2299 + bi * 100],
       [brand + " 2-in-1 Blender with Grinder", 3499 + bi * 150],
@@ -246,15 +247,16 @@ function expandFromBase(products) {
       [brand + " Bottom Load Water Dispenser", 8499 + bi * 200],
       [brand + " Air Fryer 6L", 8999 + bi * 250],
       [brand + " Electric Pressure Cooker 6L", 9999 + bi * 200],
-    ].forEach(([name, price], j) => {
-      add(makeVariant(kBase, name, price, "Home & Kitchen", { brand, badge: j === 0 ? "New" : "" }));
+    ].forEach(function (row, j) {
+      add(makeVariant(kBase, row[0], row[1], "Home & Kitchen", { brand: brand, badge: j === 0 ? "New" : "" }));
     });
   });
 
-  // --- Electronics ---
-  const elec = products.filter((p) => p.category === "Electronics & Gadgets" || /tablet|tv box|controller|phone|drill/i.test(p.name));
-  const eBase = elec[0] || products[0];
-  const elecTemplates = [
+  var elec = products.filter(function (p) {
+    return p.category === "Electronics & Gadgets" || /tablet|tv box|controller|phone|drill/i.test(p.name);
+  });
+  var eBase = elec[0] || products[0];
+  [
     ["Android Tablet 7 Inch 4GB+64GB Kids Edition", 5499],
     ["Android Tablet 8 Inch 6GB+128GB with Case", 7499],
     ["Android Tablet 10.1 Inch 8GB+256GB", 9999],
@@ -288,27 +290,27 @@ function expandFromBase(products) {
     ["Handheld Metal Detector Security", 2499],
     ["GSM Dual SIM Desk Phone", 3499],
     ["Cordless Phone DECT", 3999],
-  ];
-  elecTemplates.forEach((t, i) => {
+  ].forEach(function (t, i) {
     add(makeVariant(eBase, t[0], t[1], "Electronics & Gadgets", { badge: pick(BADGES, i + 2) }));
   });
-  ["Modio", "Xiaomi", "Generic"].forEach((brand, bi) => {
-    ["64GB", "128GB", "256GB", "512GB"].forEach((stor, si) => {
+  ["Modio", "Xiaomi", "Generic"].forEach(function (brand, bi) {
+    ["64GB", "128GB", "256GB", "512GB"].forEach(function (stor, si) {
       add(
         makeVariant(
           eBase,
-          brand + " Kids Tablet 7\" WiFi " + stor,
+          brand + " Kids Tablet 7 Inch WiFi " + stor,
           4999 + bi * 500 + si * 800,
           "Electronics & Gadgets",
-          { brand, badge: "Hot" }
+          { brand: brand, badge: "Hot" }
         )
       );
     });
   });
 
-  // --- Automotive ---
-  const auto = products.filter((p) => p.category === "Automotive" || /jump|washer|inflator|inverter/i.test(p.name));
-  const aBase = auto[0] || products[0];
+  var auto = products.filter(function (p) {
+    return p.category === "Automotive" || /jump|washer|inflator|inverter/i.test(p.name);
+  });
+  var aBase = auto[0] || products[0];
   [
     ["Car Jump Starter 20000mAh with Light", 3999],
     ["Car Jump Starter + Air Compressor 150 PSI", 6499],
@@ -330,18 +332,19 @@ function expandFromBase(products) {
     ["Bike Rear Car Rack 3-Bike", 7999],
     ["Roof Cargo Bag Waterproof 15 cu ft", 4999],
     ["Motorcycle Phone Mount Waterproof", 1499],
-  ].forEach((t, i) => {
+  ].forEach(function (t, i) {
     add(makeVariant(aBase, t[0], t[1], "Automotive", { badge: pick(BADGES, i) }));
   });
 
-  // --- Kids & Baby ---
-  const kids = products.filter((p) => p.category === "Kids & Baby");
-  const kdBase = kids[0] || products[0];
+  var kids = products.filter(function (p) {
+    return p.category === "Kids & Baby";
+  });
+  var kdBase = kids[0] || products[0];
   [
-    ["Kids Bicycle 12\" with Training Wheels", 4999],
-    ["Kids Bicycle 14\" with Basket", 5499],
-    ["Kids Bicycle 16\" Sport", 5999],
-    ["Kids Mountain Bike 20\"", 9999],
+    ["Kids Bicycle 12 Inch with Training Wheels", 4999],
+    ["Kids Bicycle 14 Inch with Basket", 5499],
+    ["Kids Bicycle 16 Inch Sport", 5999],
+    ["Kids Mountain Bike 20 Inch", 9999],
     ["Kids Tricycle with Push Handle", 4499],
     ["Kids Tricycle Storage Basket", 3999],
     ["LED 3-Wheel Scooter Adjustable", 3999],
@@ -356,8 +359,8 @@ function expandFromBase(products) {
     ["Electric Ride-On Car 6V", 14999],
     ["Building Blocks 100pc Set", 1999],
     ["Educational Learning Tablet Toy", 2499],
-  ].forEach((t, i) => {
-    COLORS.slice(0, 3).forEach((col, j) => {
+  ].forEach(function (t) {
+    COLORS.slice(0, 3).forEach(function (col, j) {
       add(
         makeVariant(kdBase, t[0] + " – " + col, t[1] + j * 100, "Kids & Baby", {
           badge: j === 0 ? "Hot" : "",
@@ -366,8 +369,10 @@ function expandFromBase(products) {
     });
   });
 
-  // --- Health, beauty, sports, tools ---
-  const hwBase = products.find((p) => p.category === "Health & Wellness") || products[0];
+  var hwBase =
+    products.find(function (p) {
+      return p.category === "Health & Wellness";
+    }) || products[0];
   [
     ["Walking Pad Folding Treadmill", 26999, "Health & Wellness"],
     ["Spinning Exercise Bike LCD", 18999, "Health & Wellness"],
@@ -389,11 +394,14 @@ function expandFromBase(products) {
     ["Straightener Ceramic Tourmaline", 2499, "Beauty & Personal Care"],
     ["Curling Wand Set", 2999, "Beauty & Personal Care"],
     ["Facial Steamer Nano", 3499, "Beauty & Personal Care"],
-  ].forEach((t, i) => {
+  ].forEach(function (t, i) {
     add(makeVariant(hwBase, t[0], t[1], t[2], { badge: pick(BADGES, i) }));
   });
 
-  const toolBase = products.find((p) => p.category === "Tools") || products[0];
+  var toolBase =
+    products.find(function (p) {
+      return p.category === "Tools";
+    }) || products[0];
   [
     ["Cordless Drill 18V Kit", 4999],
     ["Cordless Drill 36V Complete Set", 5499],
@@ -415,12 +423,14 @@ function expandFromBase(products) {
     ["Spirit Level 60cm", 999],
     ["Tape Measure 5m Soft", 499],
     ["Work Gloves Pack of 12", 999],
-  ].forEach((t, i) => {
+  ].forEach(function (t, i) {
     add(makeVariant(toolBase, t[0], t[1], "Tools", { badge: pick(BADGES, i + 1) }));
   });
 
-  // --- Agriculture extras ---
-  const agBase = products.find((p) => p.category === "Agriculture & Farm") || products[0];
+  var agBase =
+    products.find(function (p) {
+      return p.category === "Agriculture & Farm";
+    }) || products[0];
   [
     ["Knapsack Sprayer 16L Manual", 1899],
     ["Knapsack Sprayer 20L Manual", 1999],
@@ -434,12 +444,14 @@ function expandFromBase(products) {
     ["Chicken Feeder Automatic 10kg", 2499],
     ["Chicken Drinker 5L", 999],
     ["Poultry Netting 50m", 3499],
-  ].forEach((t, i) => {
+  ].forEach(function (t, i) {
     add(makeVariant(agBase, t[0], t[1], "Agriculture & Farm", { badge: i < 2 ? "Hot" : "" }));
   });
 
-  // --- Fashion / home comfort fillers ---
-  const fBase = products.find((p) => p.category === "Fashion & Accessories") || products[0];
+  var fBase =
+    products.find(function (p) {
+      return p.category === "Fashion & Accessories";
+    }) || products[0];
   [
     ["Inflatable Lounge Chair with Footrest", 3199, "Home & Kitchen"],
     ["Inflatable Bean Bag Chair", 2499, "Fashion & Accessories"],
@@ -448,25 +460,26 @@ function expandFromBase(products) {
     ["Picnic Mat Waterproof Large", 1999, "Sports & Outdoor"],
     ["Travel Neck Pillow Memory Foam", 999, "Fashion & Accessories"],
     ["Umbrella Automatic Windproof", 1299, "Fashion & Accessories"],
-    ["Backpack Laptop 15.6\"", 2499, "Fashion & Accessories"],
+    ["Backpack Laptop 15.6 Inch", 2499, "Fashion & Accessories"],
     ["Duffel Bag Sports 40L", 1999, "Fashion & Accessories"],
     ["Waist Bag Travel RFID", 999, "Fashion & Accessories"],
-  ].forEach((t, i) => {
+  ].forEach(function (t) {
     add(makeVariant(fBase, t[0], t[1], t[2], { badge: "" }));
   });
 
-  // Pad to 500+ with numbered catalog SKUs from strongest categories
-  const padSources = products.concat(extra).filter((p) => p.image);
-  let n = 1;
+  var padSources = products.concat(extra).filter(function (p) {
+    return p.image;
+  });
+  var n = 1;
   while (products.length + extra.length < 520 && n < 800) {
-    const src = padSources[n % padSources.length];
-    const cat = src.category || "General";
-    const name =
-      src.name.replace(/\s*–\s*.*$/, "").slice(0, 60) +
+    var src = padSources[n % padSources.length];
+    var cat = src.category || "General";
+    var name =
+      src.name.replace(/\s*[–-]\s*.*$/, "").slice(0, 60) +
       " – Model " +
       String.fromCharCode(65 + (n % 26)) +
       (Math.floor(n / 26) + 1);
-    const price = charmPrice(Math.round((src.price || 3000) * (0.92 + (n % 7) * 0.03)));
+    var price = charmPrice(Math.round((src.price || 3000) * (0.92 + (n % 7) * 0.03)));
     add(
       makeVariant(src, name, price, cat, {
         badge: n % 5 === 0 ? "Deal" : n % 7 === 0 ? "New" : "",
@@ -484,7 +497,7 @@ function expandFromBase(products) {
 }
 
 function main() {
-  let data;
+  var data;
   try {
     data = JSON.parse(fs.readFileSync(CATALOG, "utf8"));
   } catch (e) {
@@ -492,43 +505,35 @@ function main() {
     process.exit(0);
   }
 
-  let products = (data.products || []).filter((p) => p && p.name);
+  var products = (data.products || []).filter(function (p) {
+    return p && p.name;
+  });
   products = products.map(applyCharm);
 
-  const extras = expandFromBase(products);
-  const merged = products.concat(extras);
+  var extras = expandFromBase(products);
+  var merged = products.concat(extras);
 
-  // Final pass: unique slugs, charm, stock
-  const seen = new Set();
-  const final = [];
-  merged.forEach((p) => {
-    let slug = p.slug || slugify(p.name);
-    let i = 2;
+  var seen = new Set();
+  var final = [];
+  merged.forEach(function (p) {
+    var slug = p.slug || slugify(p.name);
+    var i = 2;
     while (seen.has(slug)) {
       slug = (p.slug || slugify(p.name)) + "-" + i;
       i++;
     }
     seen.add(slug);
-    final.push({
-      ...p,
-      slug,
-      price: charmPrice(p.price),
-      inStock: true,
-      oldPrice:
-        p.oldPrice && Number(p.oldPrice) > Number(charmPrice(p.price))
-          ? charmPrice(p.oldPrice)
-          : p.oldPrice && Number(p.oldPrice) > Number(p.price)
-          ? Number(p.oldPrice)
-          : undefined,
-    });
+    var price = charmPrice(p.price);
+    var item = Object.assign({}, p, { slug: slug, price: price, inStock: true });
+    if (p.oldPrice && Number(p.oldPrice) > price) {
+      item.oldPrice = charmPrice(p.oldPrice);
+    } else {
+      delete item.oldPrice;
+    }
+    final.push(item);
   });
 
-  // Clean undefined oldPrice
-  final.forEach((p) => {
-    if (p.oldPrice == null) delete p.oldPrice;
-  });
-
-  const out = {
+  var out = {
     generatedAt: new Date().toISOString(),
     source: "prepared-catalog",
     count: final.length,
@@ -536,9 +541,7 @@ function main() {
   };
 
   fs.writeFileSync(CATALOG, JSON.stringify(out, null, 2));
-  console.log(
-    "prepare-catalog: wrote", final.length, "products (all in stock, charm prices)"
-  );
+  console.log("prepare-catalog: wrote " + final.length + " products (all in stock, charm prices)");
 }
 
 try {
