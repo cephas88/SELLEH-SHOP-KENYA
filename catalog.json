@@ -1,4 +1,60 @@
 {
-  "generatedAt": "2026-08-24T14:38:18.329Z",
-  "products": []
+  "generatedAt": "2026-08-24T15:00:00.000Z",
+  "products": [
+    {
+      "name": "Wireless Bluetooth Earbuds",
+      "category": "Electronics & Gadgets",
+      "price": 1999,
+      "oldPrice": 2999,
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80",
+      "badge": "Hot",
+      "description": "Compact wireless earbuds with charging case. Order on WhatsApp for delivery anywhere in Nairobi, or pick up at Gaborone Plaza.",
+      "inStock": true,
+      "slug": "wireless-bluetooth-earbuds"
+    },
+    {
+      "name": "25W Fast Phone Charger",
+      "category": "Electronics & Gadgets",
+      "price": 999,
+      "oldPrice": 1499,
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80",
+      "badge": "New",
+      "description": "USB-C fast wall charger for phones and small gadgets. In stock at Selleh Shop Kenya, Gaborone Plaza.",
+      "inStock": true,
+      "slug": "25w-fast-phone-charger"
+    },
+    {
+      "name": "Ladies Crossbody Handbag",
+      "category": "Fashion & Accessories",
+      "price": 2499,
+      "oldPrice": 3500,
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+      "badge": "Best Seller",
+      "description": "Everyday crossbody bag. Shop in person at Gaborone Plaza or order on WhatsApp for Nairobi delivery.",
+      "inStock": true,
+      "slug": "ladies-crossbody-handbag"
+    },
+    {
+      "name": "Stainless Electric Kettle 1.8L",
+      "category": "Home & Kitchen",
+      "price": 1799,
+      "oldPrice": 2500,
+      "image": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=800&q=80",
+      "badge": "",
+      "description": "1.8 litre kettle with automatic shut-off. Available in-store and for delivery across Nairobi.",
+      "inStock": true,
+      "slug": "stainless-electric-kettle-18l"
+    },
+    {
+      "name": "Moisturising Body Lotion 400ml",
+      "category": "Beauty & Personal Care",
+      "price": 850,
+      "oldPrice": 1200,
+      "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&q=80",
+      "badge": "",
+      "description": "Daily body lotion. Pick up at Gaborone Plaza, 6th Floor Shop C2, or get it delivered in Nairobi.",
+      "inStock": true,
+      "slug": "moisturising-body-lotion-400ml"
+    }
+  ]
 }

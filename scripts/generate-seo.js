@@ -147,24 +147,31 @@ async function main() {
     "\n</urlset>\n";
 
   fs.writeFileSync(path.join(ROOT, "sitemap.xml"), xml);
-  fs.writeFileSync(
-    path.join(ROOT, "catalog.json"),
-    JSON.stringify(
-      {
-        generatedAt: new Date().toISOString(),
-        products: products.map((p) => ({
-          name: p.name,
-          category: p.category,
-          price: p.price,
-          image: p.image,
-          description: p.description,
-          slug: slugify(p.name),
-        })),
-      },
-      null,
-      2
-    )
-  );
+  if (products.length) {
+    fs.writeFileSync(
+      path.join(ROOT, "catalog.json"),
+      JSON.stringify(
+        {
+          generatedAt: new Date().toISOString(),
+          products: products.map((p) => ({
+            name: p.name,
+            category: p.category,
+            price: p.price,
+            oldPrice: p.oldPrice || "",
+            image: p.image,
+            description: p.description,
+            badge: p.badge || "",
+            inStock: true,
+            slug: slugify(p.name),
+          })),
+        },
+        null,
+        2
+      )
+    );
+  } else {
+    console.warn("generate-seo: catalog.json left unchanged (sheet had 0 products)");
+  }
   console.log("generate-seo: wrote sitemap.xml with", urls.length, "URLs and", products.length, "products");
 }
 

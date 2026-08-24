@@ -159,12 +159,51 @@
     }
   }
 
+  function productsFromCatalogJson(data) {
+    return (data.products || [])
+      .map((p) => {
+        const name = String(p.name || "").trim();
+        if (!name) return null;
+        const parsePrice = (v) => {
+          if (v === undefined || v === null || v === "") return "";
+          const n = parseFloat(String(v).replace(/[^0-9.\-]/g, ""));
+          return isNaN(n) ? "" : n;
+        };
+        return {
+          id: p.slug || productSlug(name),
+          name: name,
+          slug: p.slug || productSlug(name),
+          category: p.category || "General",
+          price: parsePrice(p.price) || 0,
+          oldPrice: parsePrice(p.oldPrice),
+          image: p.image || "",
+          badge: p.badge || "",
+          description: p.description || "",
+          inStock: p.inStock !== false,
+        };
+      })
+      .filter(Boolean);
+  }
+
+  function loadCatalogSnapshot() {
+    fetch("catalog.json?t=" + Date.now())
+      .then((res) => (res.ok ? res.json() : { products: [] }))
+      .then((data) => {
+        state.products = productsFromCatalogJson(data);
+        state.usingLiveSheet = false;
+        onProductsReady();
+      })
+      .catch(() => {
+        state.products = [];
+        state.usingLiveSheet = false;
+        onProductsReady();
+      });
+  }
+
   function loadProducts() {
     const url = (CONFIG.sheetCsvUrl || "").trim();
     if (!url || typeof Papa === "undefined") {
-      state.products = [];
-      state.usingLiveSheet = false;
-      onProductsReady();
+      loadCatalogSnapshot();
       return;
     }
 
@@ -179,15 +218,18 @@
           if (/^example\b/i.test(name)) return false;
           return true;
         });
-        state.products = rows.map(normalizeRow).filter((p) => p && p.name);
+        const products = rows.map(normalizeRow).filter((p) => p && p.name);
+        if (!products.length) {
+          loadCatalogSnapshot();
+          return;
+        }
+        state.products = products;
         state.usingLiveSheet = true;
         onProductsReady();
       },
       error: function () {
         console.warn("Selleh Shop: could not load the product sheet.");
-        state.products = [];
-        state.usingLiveSheet = false;
-        onProductsReady();
+        loadCatalogSnapshot();
       },
     });
   }
