@@ -1,4 +1,0 @@
-Name,Category,Price,Old Price,Image,Rating,Reviews,Badge,Description,In Stock
-EXAMPLE - Ladies Handbag (edit or delete this row),Fashion & Accessories,1999,2800,https://i.ibb.co/exampleimage1/handbag.jpg,0,0,Best Seller,Genuine leather everyday handbag,TRUE
-EXAMPLE - Electric Kettle 1.8L (edit or delete this row),Home & Kitchen,1650,,https://i.ibb.co/exampleimage2/kettle.jpg,0,0,New,Boils fast with auto shut-off,TRUE
-EXAMPLE - Sold Out Item (edit or delete this row),Electronics & Gadgets,2499,,https://i.ibb.co/exampleimage3/item.jpg,0,0,,Shown to demonstrate the Sold Out badge,FALSE

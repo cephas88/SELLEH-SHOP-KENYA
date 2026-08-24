@@ -1,38 +1,1734 @@
 {
-  "generatedAt": "2026-08-24T15:12:00.000Z",
+  "generatedAt": "2026-08-24T18:45:18.000Z",
+  "source": "uploaded-catalog",
+  "count": 114,
   "products": [
     {
-      "name": "25W Fast Phone Charger",
-      "category": "Electronics & Gadgets",
-      "price": 999,
-      "oldPrice": 1499,
-      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80",
+      "name": "Zoom Aluminium 29\" Mountain Bike",
+      "category": "Sports & Outdoor",
+      "price": 26000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780859146937333853_Zoom_Aluminium_29_Mountain_Bike__2__QqBoGFimZ.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780859146937333853_Zoom_Aluminium_29_Mountain_Bike__2__QqBoGFimZ.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780859146941600583_Zoom_Aluminium_29_Mountain_Bike__3__xhV5LM97P.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780859146840911545_Zoom_Aluminium_29_Mountain_Bike_uSUNDoz5R.webp"
+      ],
+      "badge": "Hot",
+      "description": "A durable 29-inch aluminium mountain bike featuring front suspension, disc brakes, and multi-speed gearing for comfortable city rides and off-road adventures.",
+      "inStock": true,
+      "slug": "zoom-aluminium-29-mountain-bike",
+      "brand": "Zoom"
+    },
+    {
+      "name": "Countertop Water Distiller Machine 4L",
+      "category": "Home & Kitchen",
+      "price": 14000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780858914751367851_Countertop_Water_Distiller_Machine_4L__2__5Xi-n2SHr.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858914751367851_Countertop_Water_Distiller_Machine_4L__2__5Xi-n2SHr.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858914640844164_Countertop_Water_Distiller_Machine_4L__3__E3ysdiuhi.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858914632623811_Countertop_Water_Distiller_Machine_4L__4__2kg6qYB-Fv.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858914735435288_Countertop_Water_Distiller_Machine_4L_wn4jeMi1D.webp"
+      ],
       "badge": "New",
-      "description": "USB-C fast wall charger for phones and small gadgets. In stock at Selleh Shop Kenya, Gaborone Plaza.",
+      "description": "A premium countertop water distiller designed to produce pure distilled water for drinking, medical equipment, laboratories, aquariums, and household use. Features fast distillation, stainless steel interior, and easy operation.",
       "inStock": true,
-      "slug": "25w-fast-phone-charger"
+      "slug": "countertop-water-distiller-machine-4l",
+      "brand": "Generic"
     },
     {
-      "name": "Ladies Crossbody Handbag",
-      "category": "Fashion & Accessories",
-      "price": 2499,
-      "oldPrice": 3500,
-      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
-      "badge": "Best Seller",
-      "description": "Everyday crossbody bag. Shop in person at Gaborone Plaza or order on WhatsApp for Nairobi delivery.",
+      "name": "192 Eggs Fully Automatic AC/DC Poultry Incubator",
+      "category": "Agriculture & Farm",
+      "price": 17000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780858666652439307_192_Eggs_Fully_Automatic_ACDC_Poultry_Incubator__2__V_ybG-97S.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858666652439307_192_Eggs_Fully_Automatic_ACDC_Poultry_Incubator__2__V_ybG-97S.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858666628460726_192_Eggs_Fully_Automatic_ACDC_Poultry_Incubator__3__SiZM1mNGJ.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858666635097801_192_Eggs_Fully_Automatic_ACDC_Poultry_Incubator__4__UqQWbw6IWX.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858666746284783_192_Eggs_Fully_Automatic_ACDC_Poultry_Incubator_tjM8-WvA1.webp"
+      ],
+      "badge": "New",
+      "description": "A high-capacity fully automatic egg incubator designed for poultry farmers and hatcheries. Features automatic egg turning, digital temperature and humidity control, and AC/DC power support for reliable hatching.",
       "inStock": true,
-      "slug": "ladies-crossbody-handbag"
+      "slug": "192-eggs-fully-automatic-ac-dc-poultry-incubator",
+      "brand": "Premier"
     },
     {
-      "name": "Moisturising Body Lotion 400ml",
+      "name": "Modio M93 5G Android Tablet 12GB RAM + 512GB Storage",
+      "category": "Electronics & Gadgets",
+      "price": 13500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780858434453376763_Modio_M93_5G_Android_Tablet_12GB_RAM___512GB_Storage__5__NhklNJ-Z6a.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858434453376763_Modio_M93_5G_Android_Tablet_12GB_RAM___512GB_Storage__5__NhklNJ-Z6a.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858434346851296_Modio_M93_5G_Android_Tablet_12GB_RAM___512GB_Storage__4__rrZdd3tbh.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858434234971932_Modio_M93_5G_Android_Tablet_12GB_RAM___512GB_Storage__3__eVaGGXrAm.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858434332091876_Modio_M93_5G_Android_Tablet_12GB_RAM___512GB_Storage__2__HNUCPAopD.webp"
+      ],
+      "badge": "Hot",
+      "description": "A feature-packed 11-inch Android tablet with dual SIM support, large storage capacity, long-lasting 10,000mAh battery, and 5G connectivity. Perfect for learning, entertainment, business, and everyday use.",
+      "inStock": true,
+      "slug": "modio-m93-5g-android-tablet-12gb-ram-512gb-storage",
+      "brand": "Modio"
+    },
+    {
+      "name": "26V Cordless Electric Paint Sprayer Gun",
+      "category": "Home & Kitchen",
+      "price": 4800,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780858230833315425_26V_Cordless_Electric_Paint_Sprayer_Gun__3__52aaGbI0S.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858230833315425_26V_Cordless_Electric_Paint_Sprayer_Gun__3__52aaGbI0S.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858230731997390_26V_Cordless_Electric_Paint_Sprayer_Gun__2__Q6rNEg5R6.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858230832294160_26V_Cordless_Electric_Paint_Sprayer_Gun_DR3W66oNm.webp"
+      ],
+      "badge": "New",
+      "description": "A powerful rechargeable paint sprayer designed for smooth, fast, and professional painting. Ideal for walls, furniture, fences, cabinets, vehicles, and DIY projects.",
+      "inStock": true,
+      "slug": "26v-cordless-electric-paint-sprayer-gun",
+      "brand": "Generic"
+    },
+    {
+      "name": "Heavy Duty Adjustable Kids Study Table and Chair Set",
+      "category": "Kids & Baby",
+      "price": 10500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780858076438879064_Heavy_Duty_Adjustable_Kids_Study_Table_and_Chair_Set__4__oetQ1qrt5.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858076438879064_Heavy_Duty_Adjustable_Kids_Study_Table_and_Chair_Set__4__oetQ1qrt5.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858076538786345_Heavy_Duty_Adjustable_Kids_Study_Table_and_Chair_Set__3__hV52pJcDC.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858076539010480_Heavy_Duty_Adjustable_Kids_Study_Table_and_Chair_Set__2__Q4ucDVUqGM.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780858076429358668_Heavy_Duty_Adjustable_Kids_Study_Table_and_Chair_Set_-B5Qe5DY3.webp"
+      ],
+      "badge": "New",
+      "description": "A durable ergonomic study desk and chair set designed for children. Features adjustable height settings, storage compartments, and a sturdy steel frame for comfortable learning and homework sessions.",
+      "inStock": true,
+      "slug": "heavy-duty-adjustable-kids-study-table-and-chair-set",
+      "brand": "Generic"
+    },
+    {
+      "name": "3-Piece Rattan Balcony & Bistro Dining Set with Glass Table",
+      "category": "Home & Kitchen",
+      "price": 13500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780857882646996845_3-Piece_Rattan_Balcony___Bistro_Dining_Set_with_Glass_Table__4__GhSEdxUCG.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857882646996845_3-Piece_Rattan_Balcony___Bistro_Dining_Set_with_Glass_Table__4__GhSEdxUCG.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857882636489706_3-Piece_Rattan_Balcony___Bistro_Dining_Set_with_Glass_Table__3__rr_d_rZ4I.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857882627214716_3-Piece_Rattan_Balcony___Bistro_Dining_Set_with_Glass_Table__2__dzpWxqSN-.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857882637310365_3-Piece_Rattan_Balcony___Bistro_Dining_Set_with_Glass_Table_NXueo_PHwU.webp"
+      ],
+      "badge": "New",
+      "description": "Upgrade your balcony, patio, or indoor space with this stylish 3-piece rattan furniture set featuring two comfortable chairs and a tempered glass-top table. Perfect for coffee, dining, relaxation, and outdoor entertaining.",
+      "inStock": true,
+      "slug": "3-piece-rattan-balcony-bistro-dining-set-with-glass-table",
+      "brand": "Generic"
+    },
+    {
+      "name": "128 Egg Automatic Digital Incubator",
+      "category": "Agriculture & Farm",
+      "price": 15000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780857680034101685_128_Egg_Automatic_Digital_Incubator__4__48v7motB68.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857680034101685_128_Egg_Automatic_Digital_Incubator__4__48v7motB68.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857680037644810_128_Egg_Automatic_Digital_Incubator__3__asgk2kL8J.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857679938600028_128_Egg_Automatic_Digital_Incubator__2__7z890vJw3.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857679928672332_128_Egg_Automatic_Digital_Incubator_6NZotTtGA.webp"
+      ],
+      "badge": "New",
+      "description": "Efficiently hatch poultry eggs with this 128 Egg Automatic Incubator featuring automatic egg turning, digital temperature control, humidity monitoring, and energy-efficient operation for high hatch rates.",
+      "inStock": true,
+      "slug": "128-egg-automatic-digital-incubator",
+      "brand": "Euromax"
+    },
+    {
+      "name": "D11 Stretching Wireless Mobile Game Controller",
+      "category": "Electronics & Gadgets",
+      "price": 3000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780857524230345804_D11_Stretching_Wireless_Mobile_Game_Controller__4__5p7vTbynx.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857524230345804_D11_Stretching_Wireless_Mobile_Game_Controller__4__5p7vTbynx.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857524139965907_D11_Stretching_Wireless_Mobile_Game_Controller__3__1n7FYuwhW.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857524256191238_D11_Stretching_Wireless_Mobile_Game_Controller__2__V3xFUduBY.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857524354698927_D11_Stretching_Wireless_Mobile_Game_Controller_0JgTet1pZN.webp"
+      ],
+      "badge": "Hot",
+      "description": "Take your mobile gaming experience to the next level with the D11 Stretching Wireless Game Controller. Compatible with Android, iPhone, iPad Mini, Nintendo Switch, and Switch OLED, it offers console-style controls, ergonomic comfort, and responsive gameplay.",
+      "inStock": true,
+      "slug": "d11-stretching-wireless-mobile-game-controller",
+      "brand": "D11"
+    },
+    {
+      "name": "CY-002 Cordless Deep Tissue Massage Gun – 6 Massage Heads",
       "category": "Beauty & Personal Care",
-      "price": 850,
-      "oldPrice": 1200,
-      "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&q=80",
-      "badge": "",
-      "description": "Daily body lotion. Pick up at Gaborone Plaza, 6th Floor Shop C2, or get it delivered in Nairobi.",
+      "price": 1500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780857337637375960_CY-002_Cordless_Deep_Tissue_Massage_Gun___6_Massage_Heads_s2sEEDSnu.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857337637375960_CY-002_Cordless_Deep_Tissue_Massage_Gun___6_Massage_Heads_s2sEEDSnu.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857337827073657_CY-002_Cordless_Deep_Tissue_Massage_Gun___6_Massage_Heads__5__CiopcQ54B.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857337831970113_CY-002_Cordless_Deep_Tissue_Massage_Gun___6_Massage_Heads__4__4yEpYpNebn.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857337736098915_CY-002_Cordless_Deep_Tissue_Massage_Gun___6_Massage_Heads__3__x3f6cvMpe.webp"
+      ],
+      "badge": "Hot",
+      "description": "Relieve muscle tension, soreness, and fatigue with the CY-002 Cordless Deep Tissue Massage Gun. Featuring 6 interchangeable massage heads, multiple intensity levels, and a rechargeable battery for professional-quality muscle recovery at home.",
       "inStock": true,
-      "slug": "moisturising-body-lotion-400ml"
+      "slug": "cy-002-cordless-deep-tissue-massage-gun-6-massage-heads",
+      "brand": "CY"
+    },
+    {
+      "name": "Heavy Duty Aluminium Foldable Step Ladder",
+      "category": "Home & Kitchen",
+      "price": 5000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780856538151266679_Heavy_Duty_Aluminium_Foldable_Step_Ladder__2__im1rpDRws.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780856538151266679_Heavy_Duty_Aluminium_Foldable_Step_Ladder__2__im1rpDRws.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780856538149252711_Heavy_Duty_Aluminium_Foldable_Step_Ladder_K2uSO0_U2.webp"
+      ],
+      "badge": "Hot",
+      "description": "A strong and lightweight aluminium step ladder designed for household, office and commercial use. Features wide anti-slip steps, reinforced frame construction and a foldable design for safe climbing and easy storage.",
+      "inStock": true,
+      "slug": "heavy-duty-aluminium-foldable-step-ladder",
+      "brand": "Generic"
+    },
+    {
+      "name": "Q2 Heavy Duty Car Jump Starter with Air Compressor & LED Flashlight",
+      "category": "Automotive",
+      "price": 8000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780844517242486713_Q2_Heavy_Duty_Car_Jump_Starter_with_Air_Compressor___LED_Flashlight__3__cesrOdCQP.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780844517242486713_Q2_Heavy_Duty_Car_Jump_Starter_with_Air_Compressor___LED_Flashlight__3__cesrOdCQP.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780844517246056167_Q2_Heavy_Duty_Car_Jump_Starter_with_Air_Compressor___LED_Flashlight_2htwgPjvV.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780844517435031852_Q2_Heavy_Duty_Car_Jump_Starter_with_Air_Compressor___LED_Flashlight__2__H0P90g6OF.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful all-in-one emergency automotive tool featuring a car jump starter, digital air compressor, LED flashlight, and portable power bank. Ideal for cars, motorcycles, SUVs, and emergency roadside assistance.",
+      "inStock": true,
+      "slug": "q2-heavy-duty-car-jump-starter-with-air-compressor-led-flashlight",
+      "brand": "Q2"
+    },
+    {
+      "name": "Kensplastic 20L Knapsack Sprayer",
+      "category": "Agriculture & Farm",
+      "price": 2000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780843003175164693_Kensplastic_20L_Knapsack_Sprayer_EIsxH--es.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780843003175164693_Kensplastic_20L_Knapsack_Sprayer_EIsxH--es.webp"
+      ],
+      "badge": "Hot",
+      "description": "A durable 20-litre manual knapsack sprayer designed for efficient application of pesticides, herbicides, fertilizers and disinfectants. Built for farmers, gardeners and agricultural professionals seeking reliable spraying performance.",
+      "inStock": true,
+      "slug": "kensplastic-20l-knapsack-sprayer",
+      "brand": "Kensplastic"
+    },
+    {
+      "name": "Baby Walker & Feeding Activity Seat with Toy Tray",
+      "category": "Kids & Baby",
+      "price": 3500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780423125449748682_Baby_Walker___Feeding_Activity_Seat_with_Toy_Tray__2__bMzqmJCsh.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780423125449748682_Baby_Walker___Feeding_Activity_Seat_with_Toy_Tray__2__bMzqmJCsh.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780423125339664639_Baby_Walker___Feeding_Activity_Seat_with_Toy_Tray__3__scKFTZwFe.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780423125434898424_Baby_Walker___Feeding_Activity_Seat_with_Toy_Tray__4__WU1JgNp7U.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780423125431890932_Baby_Walker___Feeding_Activity_Seat_with_Toy_Tray_hYEEUSK-V.webp"
+      ],
+      "badge": "Hot",
+      "description": "A multifunctional baby walker and feeding seat designed to support early walking, play and feeding activities with a comfortable padded seat and interactive toy tray.",
+      "inStock": true,
+      "slug": "baby-walker-feeding-activity-seat-with-toy-tray",
+      "brand": "Generic"
+    },
+    {
+      "name": "21V Cordless High Pressure Electric Paint Sprayer Gun",
+      "category": "Home & Kitchen",
+      "price": 4800,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780422460947228250_21V_Cordless_High_Pressure_Electric_Paint_Sprayer_Gun__2__tfkw-1lQ6.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780422460947228250_21V_Cordless_High_Pressure_Electric_Paint_Sprayer_Gun__2__tfkw-1lQ6.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780422460940539498_21V_Cordless_High_Pressure_Electric_Paint_Sprayer_Gun__3__0xgOhKEAs.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780422460928422286_21V_Cordless_High_Pressure_Electric_Paint_Sprayer_Gun_xwIB9m1t1.webp"
+      ],
+      "badge": "Hot",
+      "description": "A portable high-pressure cordless paint sprayer gun designed for fast, smooth and professional painting results on walls, furniture, cars and DIY projects.",
+      "inStock": true,
+      "slug": "21v-cordless-high-pressure-electric-paint-sprayer-gun",
+      "brand": "Generic"
+    },
+    {
+      "name": "Q2 Ultra High Power Car Jump Starter with Air Compressor & Flashlight",
+      "category": "Automotive",
+      "price": 8000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780421800837298878_Q2_Ultra_High_Power_Car_Jump_Starter_with_Air_Compressor___Flashlight__2__Y3ZQ7kITi.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780421800837298878_Q2_Ultra_High_Power_Car_Jump_Starter_with_Air_Compressor___Flashlight__2__Y3ZQ7kITi.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780421801062522420_Q2_Ultra_High_Power_Car_Jump_Starter_with_Air_Compressor___Flashlight__3__BHFL5zdCU.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780421800947163422_Q2_Ultra_High_Power_Car_Jump_Starter_with_Air_Compressor___Flashlight_FnDZCy43N.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful multifunctional emergency car jump starter featuring a built-in air compressor, digital pressure display and adjustable LED flashlight for reliable roadside assistance and portable power.",
+      "inStock": true,
+      "slug": "q2-ultra-high-power-car-jump-starter-with-air-compressor-flashlight",
+      "brand": "Q2"
+    },
+    {
+      "name": "V8 Wireless Bluetooth Gamepad Controller for Android, iOS, PC & PS3",
+      "category": "Electronics & Gadgets",
+      "price": 2000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780420949234346433_V8_Wireless_Bluetooth_Gamepad_Controller_for_Android__iOS__PC___PS3__2__Eu9a7vxpf.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780420949234346433_V8_Wireless_Bluetooth_Gamepad_Controller_for_Android__iOS__PC___PS3__2__Eu9a7vxpf.webp"
+      ],
+      "badge": "Hot",
+      "description": "A versatile wireless gaming controller designed for mobile and console gaming, featuring Bluetooth connectivity, ergonomic controls and wide device compatibility for an immersive gaming experience.",
+      "inStock": true,
+      "slug": "v8-wireless-bluetooth-gamepad-controller-for-android-ios-pc-ps3",
+      "brand": "V8"
+    },
+    {
+      "name": "X Bicycle 29 Inch Mountain Bike",
+      "category": "Automotive",
+      "price": 27000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779802597476402604_X_Bicycle_29_Inch_Mountain_Bike_WMLBEIC3c.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779802597476402604_X_Bicycle_29_Inch_Mountain_Bike_WMLBEIC3c.webp"
+      ],
+      "badge": "Hot",
+      "description": "The X Bicycle 29-inch Mountain Bike is a durable and stylish off-road bicycle designed for smooth city rides, rough terrain, fitness, and everyday cycling adventures.",
+      "inStock": true,
+      "slug": "x-bicycle-29-inch-mountain-bike",
+      "brand": "X Bicycle"
+    },
+    {
+      "name": "SHMA Fat Bike 26 Inch",
+      "category": "Automotive",
+      "price": 27000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779802300245390400_SHMA_Fat_Bike_26_Inch_mqLifxHpE.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779802300245390400_SHMA_Fat_Bike_26_Inch_mqLifxHpE.webp"
+      ],
+      "badge": "Hot",
+      "description": "The SHMA Fat Bike 26 Inch is a powerful multi-speed mountain bicycle designed for off-road adventures, fitness riding, and rough terrain performance with oversized fat tires and strong disc brakes.",
+      "inStock": true,
+      "slug": "shma-fat-bike-26-inch",
+      "brand": "SHMA"
+    },
+    {
+      "name": "Tanda Fat Bike 29 Inch Mountain Bicycle",
+      "category": "Automotive",
+      "price": 30000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779800250438454715_Tanda_Fat_Bike_29_Inch_Mountain_Bicycle__2__kYSb6XDJZ.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800250438454715_Tanda_Fat_Bike_29_Inch_Mountain_Bicycle__2__kYSb6XDJZ.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800250428710268_Tanda_Fat_Bike_29_Inch_Mountain_Bicycle__3__RtnVRsr-r.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800250434719618_Tanda_Fat_Bike_29_Inch_Mountain_Bicycle__4__RXLTsngsH.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800250532661367_Tanda_Fat_Bike_29_Inch_Mountain_Bicycle__5__6s6b6zO64.webp"
+      ],
+      "badge": "Hot",
+      "description": "The Tanda 29 Inch Fat Bike is a rugged high-performance mountain bicycle featuring oversized fat tires, front suspension, and disc brakes for superior stability and off-road riding.",
+      "inStock": true,
+      "slug": "tanda-fat-bike-29-inch-mountain-bicycle",
+      "brand": "Tanda"
+    },
+    {
+      "name": "Cross Road Kids Bicycle with Basket & Training Wheels",
+      "category": "Automotive",
+      "price": 5500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779800033830721159_Cross_Road_Kids_Bicycle_with_Basket___Training_Wheels_uED4dqGPb.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800033830721159_Cross_Road_Kids_Bicycle_with_Basket___Training_Wheels_uED4dqGPb.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800033735042333_Cross_Road_Kids_Bicycle_with_Basket___Training_Wheels__2__-vVCPGPlV.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800033851788895_Cross_Road_Kids_Bicycle_with_Basket___Training_Wheels__3__JDNLXAeXW.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800033840784051_Cross_Road_Kids_Bicycle_with_Basket___Training_Wheels__4__PDRCbypIb.webp"
+      ],
+      "badge": "Hot",
+      "description": "The Cross Road Kids Bicycle is a sporty and durable children's bike featuring training wheels, front basket, and stylish racing-inspired design perfect for beginner riders and outdoor fun.",
+      "inStock": true,
+      "slug": "cross-road-kids-bicycle-with-basket-training-wheels",
+      "brand": "Cross Road"
+    },
+    {
+      "name": "Ladybird Kids Bicycle with Basket & Training Wheels",
+      "category": "Automotive",
+      "price": 5500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779799776230139739_Ladybird_Kids_Bicycle_with_Basket___Training_Wheels__3__F0-No8qwn.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779799776230139739_Ladybird_Kids_Bicycle_with_Basket___Training_Wheels__3__F0-No8qwn.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779799776227040877_Ladybird_Kids_Bicycle_with_Basket___Training_Wheels__2__ind38t0jo.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779799776231945351_Ladybird_Kids_Bicycle_with_Basket___Training_Wheels_Hptvfu_AY.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779799776247684744_Ladybird_Kids_Bicycle_with_Basket___Training_Wheels__4__-oztJ5mIT.webp"
+      ],
+      "badge": "Hot",
+      "description": "The Ladybird Kids Bicycle is a stylish and durable children's bike featuring training wheels, a front basket, and a comfortable design perfect for beginner riders and everyday outdoor fun.",
+      "inStock": true,
+      "slug": "ladybird-kids-bicycle-with-basket-training-wheels",
+      "brand": "Ladybird"
+    },
+    {
+      "name": "50KG Adjustable Dumbbell Set – Home Gym Weight Training Kit",
+      "category": "Sports & Outdoor",
+      "price": 13500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779699929030515816_50KG_Adjustable_Dumbbell_Set___Home_Gym_Weight_Training_Kit_r8-W_k3hY.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779699929030515816_50KG_Adjustable_Dumbbell_Set___Home_Gym_Weight_Training_Kit_r8-W_k3hY.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779699928941339594_50KG_Adjustable_Dumbbell_Set___Home_Gym_Weight_Training_Kit__2__n0-VT3Ys-.webp"
+      ],
+      "badge": "Hot",
+      "description": "Complete 50kg adjustable dumbbell and barbell set with durable weight plates, connecting rod, and portable storage case for home fitness and strength training.",
+      "inStock": true,
+      "slug": "50kg-adjustable-dumbbell-set-home-gym-weight-training-kit",
+      "brand": "Generic"
+    },
+    {
+      "name": "Heavy Duty Adjustable Fridge & Washing Machine Stand Base",
+      "category": "Home & Kitchen",
+      "price": 3500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779699654949217736_Heavy_Duty_Adjustable_Fridge___Washing_Machine_Stand_Base__3__YICZ1Xrbt.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779699654949217736_Heavy_Duty_Adjustable_Fridge___Washing_Machine_Stand_Base__3__YICZ1Xrbt.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779699654841634983_Heavy_Duty_Adjustable_Fridge___Washing_Machine_Stand_Base__2__ATePq-Aic.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779699654837103707_Heavy_Duty_Adjustable_Fridge___Washing_Machine_Stand_Base_z-cUAEjaS.webp"
+      ],
+      "badge": "Hot",
+      "description": "Strong adjustable appliance stand with wheels, brake lock system, and 8 support stands designed for refrigerators, washing machines, coolers, and other heavy home appliances.",
+      "inStock": true,
+      "slug": "heavy-duty-adjustable-fridge-washing-machine-stand-base",
+      "brand": "Generic"
+    },
+    {
+      "name": "Xiaomi TV Box S 3rd Generation 4K Google TV",
+      "category": "Electronics & Gadgets",
+      "price": 9500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779698056234902977_Xiaomi_TV_Box_S_3rd_Generation_4K_Google_TV_KzXjRO7KA.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779698056234902977_Xiaomi_TV_Box_S_3rd_Generation_4K_Google_TV_KzXjRO7KA.webp"
+      ],
+      "badge": "Hot",
+      "description": "Transform your ordinary TV into a smart entertainment hub with the Xiaomi TV Box S 3rd Generation featuring 4K Ultra HD streaming, Google TV, Google Cast support, WiFi 6, and smooth performance with 2GB RAM and 32GB storage.",
+      "inStock": true,
+      "slug": "xiaomi-tv-box-s-3rd-generation-4k-google-tv",
+      "brand": "Xiaomi"
+    },
+    {
+      "name": "Modio M75 Kids Tablet 7 Inch WiFi Edition",
+      "category": "Electronics & Gadgets",
+      "price": 6500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779697820394930023_Modio_M75_Kids_Tablet_7_Inch_WiFi_Edition_U7-pmRZ-S.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779697820394930023_Modio_M75_Kids_Tablet_7_Inch_WiFi_Edition_U7-pmRZ-S.webp"
+      ],
+      "badge": "Hot",
+      "description": "The Modio M75 Kids Tablet is a colorful and durable 7-inch educational tablet designed for children, featuring WiFi connectivity, kid-friendly protective casing, and smooth performance for learning and entertainment.",
+      "inStock": true,
+      "slug": "modio-m75-kids-tablet-7-inch-wifi-edition",
+      "brand": "Modio"
+    },
+    {
+      "name": "Modio M796 Kids Tablet PC 7 Inch – 6GB RAM + 256GB Storage",
+      "category": "Electronics & Gadgets",
+      "price": 8000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779697443862993283_Modio_M796_Kids_Tablet_PC_7_Inch___6GB_RAM___256GB_Storage_dJoYea_eq.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779697443862993283_Modio_M796_Kids_Tablet_PC_7_Inch___6GB_RAM___256GB_Storage_dJoYea_eq.webp"
+      ],
+      "badge": "Hot",
+      "description": "The Modio M796 Kids Tablet is a colorful and child-friendly 7-inch tablet featuring 6GB RAM, 256GB storage, SIM card support, and a durable protective design perfect for learning and entertainment.",
+      "inStock": true,
+      "slug": "modio-m796-kids-tablet-pc-7-inch-6gb-ram-256gb-storage",
+      "brand": "Modio"
+    },
+    {
+      "name": "Modio M93 Tablet PC 11 Inch – 12GB RAM + 512GB Storage",
+      "category": "Electronics & Gadgets",
+      "price": 13500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779696753734318319_Modio_M93_Tablet_PC_11_Inch___12GB_RAM___512GB_Storage_5zn5KuG-j.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779696753734318319_Modio_M93_Tablet_PC_11_Inch___12GB_RAM___512GB_Storage_5zn5KuG-j.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779696753838577251_Modio_M93_Tablet_PC_11_Inch___12GB_RAM___512GB_Storage__4__j2YV-nAGO.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779696753948166945_Modio_M93_Tablet_PC_11_Inch___12GB_RAM___512GB_Storage__3__20gpybN3q.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779696754048136460_Modio_M93_Tablet_PC_11_Inch___12GB_RAM___512GB_Storage__2__hQQKUJNfLV.webp"
+      ],
+      "badge": "Hot",
+      "description": "The Modio M93 Tablet PC features a large 11-inch In-Cell touchscreen, massive 12GB RAM, 512GB storage, dual SIM support, and a powerful 10000mAh battery, making it perfect for entertainment, gaming, online classes, and productivity.",
+      "inStock": true,
+      "slug": "modio-m93-tablet-pc-11-inch-12gb-ram-512gb-storage",
+      "brand": "Modio"
+    },
+    {
+      "name": "Adjustable Laptop Stand with Cooling Fan YL-910",
+      "category": "Electronics & Gadgets",
+      "price": 3500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779696548747251143_Adjustable_Laptop_Stand_with_Cooling_Fan_YL-910_qQwZahwWl.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779696548747251143_Adjustable_Laptop_Stand_with_Cooling_Fan_YL-910_qQwZahwWl.webp"
+      ],
+      "badge": "Hot",
+      "description": "A modern adjustable laptop stand with built-in cooling fan designed to improve airflow, reduce overheating, and provide ergonomic comfort for work, gaming, studying, and everyday laptop use.",
+      "inStock": true,
+      "slug": "adjustable-laptop-stand-with-cooling-fan-yl-910",
+      "brand": "YL"
+    },
+    {
+      "name": "Sokany Coffee Maker SK-04045 – 750ml Automatic Coffee Machine",
+      "category": "Home & Kitchen",
+      "price": 2600,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779643447965513542_Sokany_Coffee_Maker_SK-04045___750ml_Automatic_Coffee_Machine_peY9H_aUb.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779643447965513542_Sokany_Coffee_Maker_SK-04045___750ml_Automatic_Coffee_Machine_peY9H_aUb.webp"
+      ],
+      "badge": "Hot",
+      "description": "Compact Sokany coffee maker with 750ml capacity, 650W fast brewing power, and easy one-touch operation for delicious home and office coffee preparation.",
+      "inStock": true,
+      "slug": "sokany-coffee-maker-sk-04045-750ml-automatic-coffee-machine",
+      "brand": "Sokany"
+    },
+    {
+      "name": "Dewalt Cordless Drill Set – Complete Portable Power Tool Kit",
+      "category": "Automotive",
+      "price": 5500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779643187767068381_Dewalt_Cordless_Drill_Set___Complete_Portable_Power_Tool_Kit_0sb0e0TsU.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779643187767068381_Dewalt_Cordless_Drill_Set___Complete_Portable_Power_Tool_Kit_0sb0e0TsU.webp"
+      ],
+      "badge": "Hot",
+      "description": "Multi-purpose Dewalt cordless drill set featuring rechargeable batteries, drill bits, hand tools, and portable carrying case for home, workshop, and professional use.",
+      "inStock": true,
+      "slug": "dewalt-cordless-drill-set-complete-portable-power-tool-kit",
+      "brand": "Dewalt"
+    },
+    {
+      "name": "Nunix LTS-01 Standing Gas Cooker – 4 Burner Cooker with Storage Shelves",
+      "category": "Home & Kitchen",
+      "price": 7500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779642683415239761_Nunix_LTS-01_Standing_Gas_Cooker___4_Burner_Cooker_with_Storage_Shelves_otUYH6rSS.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779642683415239761_Nunix_LTS-01_Standing_Gas_Cooker___4_Burner_Cooker_with_Storage_Shelves_otUYH6rSS.webp"
+      ],
+      "badge": "Hot",
+      "description": "Compact Nunix standing gas cooker featuring 4 efficient burners, durable metal construction, and double storage shelves for convenient everyday cooking.",
+      "inStock": true,
+      "slug": "nunix-lts-01-standing-gas-cooker-4-burner-cooker-with-storage-shelves",
+      "brand": "Nunix"
+    },
+    {
+      "name": "Ramtons Electric Pressure Cooker with Stainless Steel Pot",
+      "category": "Home & Kitchen",
+      "price": 9999,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779641483957955892_Ramtons_Electric_Pressure_Cooker_with_Stainless_Steel_Pot_pB33IXMl3.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779641483957955892_Ramtons_Electric_Pressure_Cooker_with_Stainless_Steel_Pot_pB33IXMl3.webp"
+      ],
+      "badge": "Hot",
+      "description": "Smart multifunction electric pressure cooker with stainless steel inner pot, digital controls, multiple cooking modes, and fast energy-efficient cooking performance.",
+      "inStock": true,
+      "slug": "ramtons-electric-pressure-cooker-with-stainless-steel-pot",
+      "brand": "Ramtons"
+    },
+    {
+      "name": "Secretarial Mesh Office Chair with Adjustable Headrest",
+      "category": "Home & Kitchen",
+      "price": 6000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779638461634381242_Secretarial_Mesh_Office_Chair_with_Adjustable_Headrest_LmpOO7W6W.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779638461634381242_Secretarial_Mesh_Office_Chair_with_Adjustable_Headrest_LmpOO7W6W.webp"
+      ],
+      "badge": "Hot",
+      "description": "Modern ergonomic mesh office chair featuring adjustable headrest, lumbar support, breathable backrest, cushioned seat, and smooth mobility for maximum workplace comfort.",
+      "inStock": true,
+      "slug": "secretarial-mesh-office-chair-with-adjustable-headrest",
+      "brand": "Comfort Office"
+    },
+    {
+      "name": "Secretarial Mesh Ergonomic Office Chair",
+      "category": "Home & Kitchen",
+      "price": 4500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779638170437385596_Secretarial_Mesh_Ergonomic_Office_Chair_esYjvGjN0.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779638170437385596_Secretarial_Mesh_Ergonomic_Office_Chair_esYjvGjN0.webp"
+      ],
+      "badge": "Hot",
+      "description": "A comfortable and stylish ergonomic office chair featuring breathable mesh back support, cushioned fabric seating, smooth mobility, and modern executive design ideal for offices and home workstations.",
+      "inStock": true,
+      "slug": "secretarial-mesh-ergonomic-office-chair",
+      "brand": "Comfort Office"
+    },
+    {
+      "name": "Haier 2-Burner Built-In Glass Gas Hob HOB-S2F30BT",
+      "category": "Electronics & Gadgets",
+      "price": 13500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779637981755690715_Haier_2-Burner_Built-In_Glass_Gas_Hob_HOB-S2F30BT_9uPxwJm66.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779637981755690715_Haier_2-Burner_Built-In_Glass_Gas_Hob_HOB-S2F30BT_9uPxwJm66.webp"
+      ],
+      "badge": "Hot",
+      "description": "A stylish and energy-efficient 2-burner built-in gas hob featuring a premium black tempered glass surface, powerful burners, and easy-clean design ideal for modern kitchens.",
+      "inStock": true,
+      "slug": "haier-2-burner-built-in-glass-gas-hob-hob-s2f30bt",
+      "brand": "Haier"
+    },
+    {
+      "name": "Orthopedic Comfort High-Back Executive Office Chair",
+      "category": "Home & Kitchen",
+      "price": 25000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779637709374009280_Orthopedic_Comfort_High-Back_Executive_Office_Chair_rXdaMjo5D.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779637709374009280_Orthopedic_Comfort_High-Back_Executive_Office_Chair_rXdaMjo5D.webp"
+      ],
+      "badge": "Hot",
+      "description": "A premium ergonomic orthopedic office chair designed with full back support, adjustable armrests, headrest cushioning, and smooth mobility for maximum comfort during long working hours.",
+      "inStock": true,
+      "slug": "orthopedic-comfort-high-back-executive-office-chair",
+      "brand": "Comfort Office"
+    },
+    {
+      "name": "Macro DF6S Double Tank Commercial Deep Fryer 6L + 6L",
+      "category": "Home & Kitchen",
+      "price": 8000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779637455972555140_Macro_DF6S_Double_Tank_Commercial_Deep_Fryer_6L___6L_vjEzbnWf4.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779637455972555140_Macro_DF6S_Double_Tank_Commercial_Deep_Fryer_6L___6L_vjEzbnWf4.webp"
+      ],
+      "badge": "Hot",
+      "description": "A high-capacity commercial double deep fryer with dual 6-liter tanks designed for fast, efficient, and simultaneous frying of chips, chicken, fish, samosas, and other snacks.",
+      "inStock": true,
+      "slug": "macro-df6s-double-tank-commercial-deep-fryer-6l-6l",
+      "brand": "Macro"
+    },
+    {
+      "name": "Nunix 6L Single Tank Commercial Deep Fryer",
+      "category": "Home & Kitchen",
+      "price": 4000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779637241459543771_Nunix_6L_Single_Tank_Commercial_Deep_Fryer_LhL1zDT1I.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779637241459543771_Nunix_6L_Single_Tank_Commercial_Deep_Fryer_LhL1zDT1I.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful 6-liter commercial deep fryer designed for fast and efficient frying of chips, chicken, sausages, samosas, fish, and other snacks for home or business use.",
+      "inStock": true,
+      "slug": "nunix-6l-single-tank-commercial-deep-fryer",
+      "brand": "Nunix"
+    },
+    {
+      "name": "Nunix A1C Bottom Load Water Dispenser",
+      "category": "Home & Kitchen",
+      "price": 8999,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779632982950653727_Nunix_A1C_Bottom_Load_Water_Dispenser_jJBsjyHw3.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779632982950653727_Nunix_A1C_Bottom_Load_Water_Dispenser_jJBsjyHw3.webp"
+      ],
+      "badge": "Hot",
+      "description": "A stylish and modern bottom-load water dispenser designed for convenient hot and cold water dispensing. Features smart bottom bottle loading, elegant glossy finish, and energy-efficient performance for homes and offices.",
+      "inStock": true,
+      "slug": "nunix-a1c-bottom-load-water-dispenser",
+      "brand": "Nunix"
+    },
+    {
+      "name": "Beijing Kids Bicycle with Training Wheels",
+      "category": "Kids & Baby",
+      "price": 5500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779632570628496950_Beijing_Kids_Bicycle_with_Training_Wheels_RmtxWlIyu.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779632570628496950_Beijing_Kids_Bicycle_with_Training_Wheels_RmtxWlIyu.webp"
+      ],
+      "badge": "Hot",
+      "description": "A stylish and durable kids bicycle designed for safe and fun riding. Features training wheels, sporty design, comfortable seating, and strong tires ideal for young beginner riders.",
+      "inStock": false,
+      "slug": "beijing-kids-bicycle-with-training-wheels",
+      "brand": "Beijing"
+    },
+    {
+      "name": "3-Bike Rear Car Rack Carrier",
+      "category": "Automotive",
+      "price": 8000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779631744073052670_3-Bike_Rear_Car_Rack_Carrier_wWVlAxef-.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779631744073052670_3-Bike_Rear_Car_Rack_Carrier_wWVlAxef-.webp"
+      ],
+      "badge": "Hot",
+      "description": "A durable rear-mounted bike carrier designed to safely transport up to 3 bicycles on most vehicles. Features strong locking straps, foldable arms, and heavy-duty steel construction for secure travel.",
+      "inStock": true,
+      "slug": "3-bike-rear-car-rack-carrier",
+      "brand": "Generic"
+    },
+    {
+      "name": "Euromax Folding Walking Pad Treadmill",
+      "category": "Health & Wellness",
+      "price": 27500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779631366770135281_Euromax_Folding_Walking_Pad_Treadmill_QZXNefRSi.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779631366770135281_Euromax_Folding_Walking_Pad_Treadmill_QZXNefRSi.webp"
+      ],
+      "badge": "Hot",
+      "description": "A compact and modern walking pad treadmill designed for home and office fitness workouts. Features a slim foldable design, digital display, quiet motor, and easy storage for convenient daily cardio exercise.",
+      "inStock": true,
+      "slug": "euromax-folding-walking-pad-treadmill",
+      "brand": "Euromax"
+    },
+    {
+      "name": "Smart 6.5 Inch Self Balancing Hoverboard Scooter",
+      "category": "Automotive",
+      "price": 15000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779630746131131375_Smart_6.5_Inch_Self_Balancing_Hoverboard_Scooter_cAJ5Jlrmi.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779630746131131375_Smart_6.5_Inch_Self_Balancing_Hoverboard_Scooter_cAJ5Jlrmi.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779630746138381895_Smart_6.5_Inch_Self_Balancing_Hoverboard_Scooter__2__w1q-wBHt5.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779630745733750226_Smart_6.5_Inch_Self_Balancing_Hoverboard_Scooter__3__kexUkacfM.webp"
+      ],
+      "badge": "Hot",
+      "description": "A stylish and powerful 6.5-inch hoverboard designed for smooth self-balancing rides, fun outdoor adventures, and everyday mobility. Features LED lights, durable tires, and intelligent balancing technology for beginners and experienced riders.",
+      "inStock": true,
+      "slug": "smart-6-5-inch-self-balancing-hoverboard-scooter",
+      "brand": "Smart"
+    },
+    {
+      "name": "Commercial Stainless Steel Juice Extractor Machine",
+      "category": "Home & Kitchen",
+      "price": 30000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779630398731901707_Commercial_Stainless_Steel_Juice_Extractor_Machine_EDGvV3LRb.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779630398731901707_Commercial_Stainless_Steel_Juice_Extractor_Machine_EDGvV3LRb.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779638709676515329_Commercial_Stainless_Steel_Juice_Extractor_Machine__2__PKxNHaxpy.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful commercial-grade juice extractor designed for fast and efficient juice production in restaurants, juice bars, cafés, and home businesses. Built with durable stainless steel construction for long-lasting performance.",
+      "inStock": true,
+      "slug": "commercial-stainless-steel-juice-extractor-machine",
+      "brand": "Generic"
+    },
+    {
+      "name": "Sport Spinning Exercise Bike with LCD Monitor",
+      "category": "Health & Wellness",
+      "price": 19999,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779629945536778217_Sport_Spinning_Exercise_Bike_with_LCD_Monitor_tp7o90d5S.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779629945536778217_Sport_Spinning_Exercise_Bike_with_LCD_Monitor_tp7o90d5S.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779629945753578310_Sport_Spinning_Exercise_Bike_with_LCD_Monitor__2__I4jTFa1dP.webp"
+      ],
+      "badge": "Hot",
+      "description": "A high-performance indoor spinning bike designed for home cardio workouts, fat burning, and endurance training. Features adjustable resistance, ergonomic seating, and an LCD monitor for tracking workout progress.",
+      "inStock": true,
+      "slug": "sport-spinning-exercise-bike-with-lcd-monitor",
+      "brand": "sport"
+    },
+    {
+      "name": "Beijing Kids Mountain Bike 20 Inch",
+      "category": "Kids & Baby",
+      "price": 10500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779628546670605345_Beijing_Kids_Mountain_Bike_20_Inch_0ZSFVoMgT.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779628546670605345_Beijing_Kids_Mountain_Bike_20_Inch_0ZSFVoMgT.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779628546545604556_Beijing_Kids_Mountain_Bike_20_Inch__2__FYux89HIp.webp"
+      ],
+      "badge": "Hot",
+      "description": "A stylish and durable 20-inch kids mountain bike designed for smooth riding, comfort, and safety. Features front suspension, strong frame construction, and sporty design perfect for growing riders.",
+      "inStock": true,
+      "slug": "beijing-kids-mountain-bike-20-inch",
+      "brand": "Beijing"
+    },
+    {
+      "name": "64 Eggs Fully Automatic Smart Egg Incubator",
+      "category": "Agriculture & Farm",
+      "price": 10999,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779628217129346497_64_Eggs_Fully_Automatic_Smart_Egg_Incubator__2__KmpTWqkK3.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779628217129346497_64_Eggs_Fully_Automatic_Smart_Egg_Incubator__2__KmpTWqkK3.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779628217128019286_64_Eggs_Fully_Automatic_Smart_Egg_Incubator_bALXNZ1W5.webp"
+      ],
+      "badge": "Hot",
+      "description": "A high-performance fully automatic egg incubator with intelligent temperature control, automatic egg turning, humidity support, and dual power compatibility for reliable poultry hatching.",
+      "inStock": true,
+      "slug": "64-eggs-fully-automatic-smart-egg-incubator",
+      "brand": "EcoChicks"
+    },
+    {
+      "name": "Kids LED 3-Wheel Scooter",
+      "category": "Kids & Baby",
+      "price": 4000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779627966645208223_Kids_LED_3-Wheel_Scooter_U2uDZIANu.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779627966645208223_Kids_LED_3-Wheel_Scooter_U2uDZIANu.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779627966335259052_Kids_LED_3-Wheel_Scooter__2__svPRAthod.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779627966543469870_Kids_LED_3-Wheel_Scooter__3__4NEN6aQdi.webp"
+      ],
+      "badge": "Hot",
+      "description": "A stylish and durable kids scooter featuring colorful LED flashing wheels, adjustable handle height, and stable 3-wheel support for smooth and safe riding fun.",
+      "inStock": true,
+      "slug": "kids-led-3-wheel-scooter",
+      "brand": "Generic"
+    },
+    {
+      "name": "Compact Mini Stepper Exercise Machine with Resistance Bands",
+      "category": "Health & Wellness",
+      "price": 4000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779622515848583680_Compact_Mini_Stepper_Exercise_Machine_with_Resistance_Bands__2__66vd1fdqb.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779622515848583680_Compact_Mini_Stepper_Exercise_Machine_with_Resistance_Bands__2__66vd1fdqb.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779622515963554998_Compact_Mini_Stepper_Exercise_Machine_with_Resistance_Bands_QUU54gHYj.webp"
+      ],
+      "badge": "Hot",
+      "description": "A compact full-body fitness stepper designed for home workouts, cardio training, and lower body toning. Includes resistance bands for upper body exercises and a digital monitor for tracking workout progress.",
+      "inStock": true,
+      "slug": "compact-mini-stepper-exercise-machine-with-resistance-bands",
+      "brand": "Generic"
+    },
+    {
+      "name": "Premier PM-C213 Bottom Load Water Dispenser",
+      "category": "Home & Kitchen",
+      "price": 9500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779621911468021501_Premier_PM-C213_Bottom_Load_Water_Dispenser_CxDMkn4AJB.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779621911468021501_Premier_PM-C213_Bottom_Load_Water_Dispenser_CxDMkn4AJB.webp"
+      ],
+      "badge": "Hot",
+      "description": "A modern bottom-load water dispenser designed for convenient hot and cold water dispensing without lifting heavy bottles. Features a stylish premium finish, touch controls, and smart heating technology ideal for homes and offices.",
+      "inStock": true,
+      "slug": "premier-pm-c213-bottom-load-water-dispenser",
+      "brand": "Premier"
+    },
+    {
+      "name": "Premium Inflatable Bean Bag Lounge Chair",
+      "category": "Fashion & Accessories",
+      "price": 2500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778937360730097550_Premium_Inflatable_Bean_Bag_Lounge_Chair__3__8zRoD0O7b.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778937360730097550_Premium_Inflatable_Bean_Bag_Lounge_Chair__3__8zRoD0O7b.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778937360716514098_Premium_Inflatable_Bean_Bag_Lounge_Chair_vYVbPs7d3.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778937360731717480_Premium_Inflatable_Bean_Bag_Lounge_Chair__2__kJN1PERh2.webp"
+      ],
+      "badge": "Hot",
+      "description": "Relax in comfort with this soft and stylish inflatable bean bag chair designed for lounging, gaming, reading, and everyday home comfort. Lightweight, portable, and easy to inflate.",
+      "inStock": true,
+      "slug": "premium-inflatable-bean-bag-lounge-chair",
+      "brand": "Generic"
+    },
+    {
+      "name": "Self-Inflating Queen Size Air Bed with Built-in Pump & 2 Pillows",
+      "category": "Home & Kitchen",
+      "price": 7500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778936816627355990_Self-Inflating_Queen_Size_Air_Bed_with_Built-in_Pump___2_Pillows_eJfPijGAy.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778936816627355990_Self-Inflating_Queen_Size_Air_Bed_with_Built-in_Pump___2_Pillows_eJfPijGAy.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778936816316471451_Self-Inflating_Queen_Size_Air_Bed_with_Built-in_Pump___2_Pillows__2__WLZ5fpNfN.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778936816727428961_Self-Inflating_Queen_Size_Air_Bed_with_Built-in_Pump___2_Pillows__3__apUZzQmn0.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778936816732853502_Self-Inflating_Queen_Size_Air_Bed_with_Built-in_Pump___2_Pillows__4__GTd8QFGAS.webp"
+      ],
+      "badge": "Hot",
+      "description": "Experience premium comfort anywhere with this self-inflating queen-size air bed featuring a built-in automatic pump and two complimentary pillows. Perfect for home guests, travel, camping, and temporary sleeping solutions.",
+      "inStock": true,
+      "slug": "self-inflating-queen-size-air-bed-with-built-in-pump-2-pillows",
+      "brand": "Generic"
+    },
+    {
+      "name": "INTEX Inflatable Air Mattress with Free Electric Pump",
+      "category": "Home & Kitchen",
+      "price": 3500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778936162322936645_INTEX_Inflatable_Air_Mattress_with_Free_Electric_Pump__2__9g2Vxt9NW.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778936162322936645_INTEX_Inflatable_Air_Mattress_with_Free_Electric_Pump__2__9g2Vxt9NW.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778936162523489736_INTEX_Inflatable_Air_Mattress_with_Free_Electric_Pump__3__7IYJM_rs6.webp"
+      ],
+      "badge": "Hot",
+      "description": "Enjoy comfortable sleep anywhere with the INTEX Inflatable Air Mattress. Designed for home use, guests, travel, and camping, it inflates quickly and includes a free electric pump for effortless setup.",
+      "inStock": true,
+      "slug": "intex-inflatable-air-mattress-with-free-electric-pump",
+      "brand": "Intex"
+    },
+    {
+      "name": "Modio M132 5G Tablet 12GB RAM + 512GB ROM Dual SIM with Keyboard Set",
+      "category": "Electronics & Gadgets",
+      "price": 9000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778935074246362038_Modio_M132_5G_Tablet_12GB_RAM___512GB_ROM_Dual_SIM_with_Keyboard_Set__UhiOuAD_.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778935074246362038_Modio_M132_5G_Tablet_12GB_RAM___512GB_ROM_Dual_SIM_with_Keyboard_Set__UhiOuAD_.webp"
+      ],
+      "badge": "Hot",
+      "description": "The Modio M132 is a compact yet powerful 8-inch Android tablet featuring 12GB RAM, massive 512GB storage, Dual SIM support, and productivity accessories for learning, entertainment, and everyday use.",
+      "inStock": false,
+      "slug": "modio-m132-5g-tablet-12gb-ram-512gb-rom-dual-sim-with-keyboard-set",
+      "brand": "Modio"
+    },
+    {
+      "name": "Modio M129 5G Wi-Fi Tablet 12GB RAM + 512GB ROM with Keyboard & Dual SIM",
+      "category": "Electronics & Gadgets",
+      "price": 10000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778934536520077965_Modio_M129_5G_Wi-Fi_Tablet_12GB_RAM___512GB_ROM_with_Keyboard___Dual_SIM_mg_AQwUmA.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778934536520077965_Modio_M129_5G_Wi-Fi_Tablet_12GB_RAM___512GB_ROM_with_Keyboard___Dual_SIM_mg_AQwUmA.webp"
+      ],
+      "badge": "Hot",
+      "description": "The Modio M129 is a compact and powerful 8-inch Android tablet featuring 12GB RAM, massive 512GB storage, Dual SIM support, and an included keyboard for work, learning, and entertainment.",
+      "inStock": true,
+      "slug": "modio-m129-5g-wi-fi-tablet-12gb-ram-512gb-rom-with-keyboard-dual-sim",
+      "brand": "Modio"
+    },
+    {
+      "name": "Modio M91 5G Tablet 12GB RAM + 512GB Storage with Wireless Keyboard",
+      "category": "Electronics & Gadgets",
+      "price": 12000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778933876641651850_Modio_M91_5G_Tablet_12GB_RAM___512GB_Storage_with_Wireless_Keyboard_cV_c5v67b.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778933876641651850_Modio_M91_5G_Tablet_12GB_RAM___512GB_Storage_with_Wireless_Keyboard_cV_c5v67b.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful Modio M91 tablet featuring a large 10.95-inch display, 12GB RAM, massive 512GB storage, and a wireless keyboard for productivity, entertainment, and everyday use.",
+      "inStock": true,
+      "slug": "modio-m91-5g-tablet-12gb-ram-512gb-storage-with-wireless-keyboard",
+      "brand": "Modio"
+    },
+    {
+      "name": "204 Eggs Fully Automatic Front Load Incubator – Smart Poultry Hatching Machine",
+      "category": "Agriculture & Farm",
+      "price": 25000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778933129916862665_204_Eggs_Fully_Automatic_Front_Load_Incubator___Smart_Poultry_Hatching_Machine__3__R1FP1pwiD.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778933129916862665_204_Eggs_Fully_Automatic_Front_Load_Incubator___Smart_Poultry_Hatching_Machine__3__R1FP1pwiD.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778933129817767609_204_Eggs_Fully_Automatic_Front_Load_Incubator___Smart_Poultry_Hatching_Machine__2__BPnAP3t9c.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778933129832762154_204_Eggs_Fully_Automatic_Front_Load_Incubator___Smart_Poultry_Hatching_Machine_AQo4JMExk.webp"
+      ],
+      "badge": "Hot",
+      "description": "A high-capacity 204 eggs fully automatic front-load incubator designed for efficient and reliable poultry hatching with automatic egg turning, temperature control, and smart monitoring features.",
+      "inStock": true,
+      "slug": "204-eggs-fully-automatic-front-load-incubator-smart-poultry-hatching-machine",
+      "brand": "Generic"
+    },
+    {
+      "name": "Full Body Vibration Massager Machine – Fitness Exercise & Body Shaping Platform",
+      "category": "Beauty & Personal Care",
+      "price": 8000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778932660318799438_Full_Body_Vibration_Massager_Machine___Fitness_Exercise___Body_Shaping_Platform__2__40i3ewxUF.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778932660318799438_Full_Body_Vibration_Massager_Machine___Fitness_Exercise___Body_Shaping_Platform__2__40i3ewxUF.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778932660513735702_Full_Body_Vibration_Massager_Machine___Fitness_Exercise___Body_Shaping_Platform_H7hniDAkn.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful full body vibration massager designed to support workouts, relaxation, and muscle stimulation with adjustable vibration modes and resistance bands.",
+      "inStock": true,
+      "slug": "full-body-vibration-massager-machine-fitness-exercise-body-shaping-platform",
+      "brand": "Generic"
+    },
+    {
+      "name": "HK-147 Fascial Massage Gun – Deep Tissue Percussion Muscle Massager",
+      "category": "Beauty & Personal Care",
+      "price": 7000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778932204317807919_HK-147_Fascial_Massage_Gun___Deep_Tissue_Percussion_Muscle_Massager_3EhwvUOyM.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778932204317807919_HK-147_Fascial_Massage_Gun___Deep_Tissue_Percussion_Muscle_Massager_3EhwvUOyM.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778932204135538657_HK-147_Fascial_Massage_Gun___Deep_Tissue_Percussion_Muscle_Massager__2__h_7rwLIUW.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful deep tissue fascial massage gun designed to relieve muscle tension, reduce soreness, and improve recovery using multiple massage heads and adjustable intensity levels.",
+      "inStock": true,
+      "slug": "hk-147-fascial-massage-gun-deep-tissue-percussion-muscle-massager",
+      "brand": "HK-147"
+    },
+    {
+      "name": "Makita Corded Electric Drill Set – Multi-Purpose Power Drill with Complete Tool Kit",
+      "category": "Electronics & Gadgets",
+      "price": 5000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778931665731422301_Makita_Corded_Electric_Drill_Set___Multi-Purpose_Power_Drill_with_Complete_Tool_Kit_VoWkmbi2T.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778931665731422301_Makita_Corded_Electric_Drill_Set___Multi-Purpose_Power_Drill_with_Complete_Tool_Kit_VoWkmbi2T.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778931665938994514_Makita_Corded_Electric_Drill_Set___Multi-Purpose_Power_Drill_with_Complete_Tool_Kit__2__NTqJrhUKy.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful Makita corded electric drill set with a complete toolkit designed for drilling, repairs, installations, and everyday home or professional use.",
+      "inStock": true,
+      "slug": "makita-corded-electric-drill-set-multi-purpose-power-drill-with-complete-tool-kit",
+      "brand": "Makita"
+    },
+    {
+      "name": "2 Column Commercial Juice Dispenser – 18L x 2 Double Tank Cold Beverage Machine",
+      "category": "Home & Kitchen",
+      "price": 55000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778931107025471657_2_Column_Commercial_Juice_Dispenser___18L_x_2_Double_Tank_Cold_Beverage_Machine__2__Uur23Vrd6.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778931107025471657_2_Column_Commercial_Juice_Dispenser___18L_x_2_Double_Tank_Cold_Beverage_Machine__2__Uur23Vrd6.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778931107117501796_2_Column_Commercial_Juice_Dispenser___18L_x_2_Double_Tank_Cold_Beverage_Machine__3__6c16-2Ep5.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778931107023256886_2_Column_Commercial_Juice_Dispenser___18L_x_2_Double_Tank_Cold_Beverage_Machine_I6MZglTUo.webp"
+      ],
+      "badge": "Hot",
+      "description": "A heavy-duty commercial juice dispenser with two 18-liter tanks designed for serving chilled beverages efficiently in restaurants, hotels, cafés, and juice businesses.",
+      "inStock": false,
+      "slug": "2-column-commercial-juice-dispenser-18l-x-2-double-tank-cold-beverage-machine",
+      "brand": "Generic"
+    },
+    {
+      "name": "Stanley Quencher H2.0 Original Tumbler – Vacuum Insulated Travel Cup with Handle",
+      "category": "Home & Kitchen",
+      "price": 1500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778930633325124150_Stanley_Quencher_H2.0_Original_Tumbler___Vacuum_Insulated_Travel_Cup_with_Handle__4__XJpbsBcHy.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778930633325124150_Stanley_Quencher_H2.0_Original_Tumbler___Vacuum_Insulated_Travel_Cup_with_Handle__4__XJpbsBcHy.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778930634116461417_Stanley_Quencher_H2.0_Original_Tumbler___Vacuum_Insulated_Travel_Cup_with_Handle__3__eRVXYnLBn.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778930634213839032_Stanley_Quencher_H2.0_Original_Tumbler___Vacuum_Insulated_Travel_Cup_with_Handle_ieO7NA6jH.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778930634224809697_Stanley_Quencher_H2.0_Original_Tumbler___Vacuum_Insulated_Travel_Cup_with_Handle__2___mcHRaghP.webp"
+      ],
+      "badge": "Hot",
+      "description": "Stay hydrated in style with the original Stanley Quencher H2.0 tumbler featuring a large capacity, ergonomic handle, and insulated design to keep drinks hot or cold for hours.",
+      "inStock": true,
+      "slug": "stanley-quencher-h2-0-original-tumbler-vacuum-insulated-travel-cup-with-handle",
+      "brand": "Stanley"
+    },
+    {
+      "name": "Metallic Kids Scooter – Foldable Adjustable Scooter with Large Wheels",
+      "category": "Kids & Baby",
+      "price": 5500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778929813620354680_Metallic_Kids_Scooter___Foldable_Adjustable_Scooter_with_Large_Wheels__2__hz6BXkIBf.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778929813620354680_Metallic_Kids_Scooter___Foldable_Adjustable_Scooter_with_Large_Wheels__2__hz6BXkIBf.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778929813617817214_Metallic_Kids_Scooter___Foldable_Adjustable_Scooter_with_Large_Wheels_XBWs36ORY.webp"
+      ],
+      "badge": "Hot",
+      "description": "A stylish and durable metallic scooter designed for smooth riding, adjustable comfort, and everyday outdoor fun for kids and young riders.",
+      "inStock": true,
+      "slug": "metallic-kids-scooter-foldable-adjustable-scooter-with-large-wheels",
+      "brand": "Generic"
+    },
+    {
+      "name": "Yoyodi Electric Mountain Bike – Rechargeable E-Bike with Suspension & Disc Brakes",
+      "category": "Sports & Outdoor",
+      "price": 80000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778928525724301887_Yoyodi_Electric_Mountain_Bike___Rechargeable_E-Bike_with_Suspension___Disc_Brakes__2__czM_KVqjt.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778928525724301887_Yoyodi_Electric_Mountain_Bike___Rechargeable_E-Bike_with_Suspension___Disc_Brakes__2__czM_KVqjt.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778928525814442732_Yoyodi_Electric_Mountain_Bike___Rechargeable_E-Bike_with_Suspension___Disc_Brakes_h7FqECPgF.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful and stylish Yoyodi electric bike built for daily commuting and adventure riding, featuring pedal assist, rechargeable battery power, and rugged mountain bike performance.",
+      "inStock": true,
+      "slug": "yoyodi-electric-mountain-bike-rechargeable-e-bike-with-suspension-disc-brakes",
+      "brand": "Yoyodi"
+    },
+    {
+      "name": "Kids Tricycle – 3 Wheel Ride-On Bicycle with Basket & Storage Tray",
+      "category": "Kids & Baby",
+      "price": 4000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778927955413027626_Kids_Tricycle___3_Wheel_Ride-On_Bicycle_with_Basket___Storage_Tray__2__Rexk0-quP.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778927955413027626_Kids_Tricycle___3_Wheel_Ride-On_Bicycle_with_Basket___Storage_Tray__2__Rexk0-quP.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778927955441774152_Kids_Tricycle___3_Wheel_Ride-On_Bicycle_with_Basket___Storage_Tray_0t-0-revm.webp"
+      ],
+      "badge": "Hot",
+      "description": "A fun and durable kids tricycle designed with a stable 3-wheel structure, front basket, and storage tray for safe riding and enjoyable outdoor play.",
+      "inStock": true,
+      "slug": "kids-tricycle-3-wheel-ride-on-bicycle-with-basket-storage-tray",
+      "brand": "Generic"
+    },
+    {
+      "name": "Beijing Kids Bicycle 12 inch – Training Wheel Bike with Water Bottle & Safety Support Wheels",
+      "category": "Kids & Baby",
+      "price": 5500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778927566519728380_Beijing_Kids_Bicycle_12inch___Training_Wheel_Bike_with_Water_Bottle___Safety_Support_Wheels__2__aZmtmQjw2.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778927566519728380_Beijing_Kids_Bicycle_12inch___Training_Wheel_Bike_with_Water_Bottle___Safety_Support_Wheels__2__aZmtmQjw2.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778927566631715838_Beijing_Kids_Bicycle_12inch___Training_Wheel_Bike_with_Water_Bottle___Safety_Support_Wheels__3__SVxOikftN.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778927566624134238_Beijing_Kids_Bicycle_12inch___Training_Wheel_Bike_with_Water_Bottle___Safety_Support_Wheels_K22FxpWl4.webp"
+      ],
+      "badge": "Hot",
+      "description": "A stylish and durable 12-inch Beijing kids bicycle designed with training wheels, safety features, and a sporty look to help children learn cycling confidently and safely.",
+      "inStock": true,
+      "slug": "beijing-kids-bicycle-12-inch-training-wheel-bike-with-water-bottle-safety-support-wheels",
+      "brand": "Beijing"
+    },
+    {
+      "name": "Kids Adjustable Study Table & Chair Set – Learning Desk with Storage, Abacus & Cartoon Themes",
+      "category": "Kids & Baby",
+      "price": 4550,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778927068413882951_Kids_Adjustable_Study_Table___Chair_Set___Learning_Desk_with_Storage__Abacus___Cartoon_Themes_IRxMnUKvf.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778927068413882951_Kids_Adjustable_Study_Table___Chair_Set___Learning_Desk_with_Storage__Abacus___Cartoon_Themes_IRxMnUKvf.webp"
+      ],
+      "badge": "Hot",
+      "description": "A fun and ergonomic kids study table and chair set designed with colorful cartoon themes, built-in learning features, and adjustable height for comfortable studying and creativity.",
+      "inStock": true,
+      "slug": "kids-adjustable-study-table-chair-set-learning-desk-with-storage-abacus-cartoon-themes",
+      "brand": "Generic"
+    },
+    {
+      "name": "148V High Power Cordless Car Washer Gun – Portable Pressure Cleaning Machine Kit",
+      "category": "Automotive",
+      "price": 5499,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778926199725731463_148V_High_Power_Cordless_Car_Washer_Gun___Portable_Pressure_Cleaning_Machine_Kit_RK4S7HBlv.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778926199725731463_148V_High_Power_Cordless_Car_Washer_Gun___Portable_Pressure_Cleaning_Machine_Kit_RK4S7HBlv.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778926199620623986_148V_High_Power_Cordless_Car_Washer_Gun___Portable_Pressure_Cleaning_Machine_Kit1_cp_yi7_tt.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778926199715774469_148V_High_Power_Cordless_Car_Washer_Gun___Portable_Pressure_Cleaning_Machine_Kit2_gVU1mBHWH_.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778926199611482586_148V_High_Power_Cordless_Car_Washer_Gun___Portable_Pressure_Cleaning_Machine_Kit3_dR11TR1kJ.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful cordless high-pressure washer gun with dual 148V rechargeable batteries, foam bottle system, and complete cleaning accessories for professional car and outdoor cleaning.",
+      "inStock": true,
+      "slug": "148v-high-power-cordless-car-washer-gun-portable-pressure-cleaning-machine-kit",
+      "brand": "Generic"
+    },
+    {
+      "name": "96V Cordless High Pressure Car Washer Gun – Portable Rechargeable Cleaning Machine",
+      "category": "Automotive",
+      "price": 3600,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778925708214338876_96V_Cordless_High_Pressure_Car_Washer_Gun___Portable_Rechargeable_Cleaning_Machine2_4Vw2WSeph.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778925708214338876_96V_Cordless_High_Pressure_Car_Washer_Gun___Portable_Rechargeable_Cleaning_Machine2_4Vw2WSeph.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778925708219506242_96V_Cordless_High_Pressure_Car_Washer_Gun___Portable_Rechargeable_Cleaning_Machine_g0SGX82_cC.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778925708111935424_96V_Cordless_High_Pressure_Car_Washer_Gun___Portable_Rechargeable_Cleaning_Machine1_fIpCZ1G8P.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778925708211955632_96V_Cordless_High_Pressure_Car_Washer_Gun___Portable_Rechargeable_Cleaning_Machine3_Pah8sCrTM.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful cordless high-pressure washer gun with dual 96V rechargeable batteries, designed for efficient car washing, home cleaning, and outdoor use.",
+      "inStock": true,
+      "slug": "96v-cordless-high-pressure-car-washer-gun-portable-rechargeable-cleaning-machine",
+      "brand": "Generic"
+    },
+    {
+      "name": "Makita 48V Cordless Drill Set – Compact Portable Tool Kit",
+      "category": "Home & Kitchen",
+      "price": 3800,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778923752313132687_Makita_48V_Cordless_Drill_Set___Compact_Portable_Tool_Kit_T_Ot0oohu.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778923752313132687_Makita_48V_Cordless_Drill_Set___Compact_Portable_Tool_Kit_T_Ot0oohu.webp"
+      ],
+      "badge": "Hot",
+      "description": "A compact and powerful Makita cordless drill set with 48V battery power, essential drill accessories, and a portable carrying case for home repairs and everyday drilling tasks.",
+      "inStock": true,
+      "slug": "makita-48v-cordless-drill-set-compact-portable-tool-kit",
+      "brand": "Makita"
+    },
+    {
+      "name": "300W Smart Car Power Inverter – DC 12V to AC Converter with USB Charging Ports",
+      "category": "Automotive",
+      "price": 3500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778499351253508028_Smart_Car_Power_Inverter_1_VzrAmUUXe.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778499351253508028_Smart_Car_Power_Inverter_1_VzrAmUUXe.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778499351052280128_Smart_Car_Power_Inverter_2_1zQFqqDhO.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778499351163308691_Smart_Car_Power_Inverter_gY6QG7R5i.webp"
+      ],
+      "badge": "Hot",
+      "description": "A compact 300W smart car inverter designed to convert vehicle power into usable AC electricity while providing multiple USB charging ports for phones, laptops, and other devices.",
+      "inStock": true,
+      "slug": "300w-smart-car-power-inverter-dc-12v-to-ac-converter-with-usb-charging-ports",
+      "brand": "Generic"
+    },
+    {
+      "name": "Kids Quad Roller Skating Shoes Set – Adjustable Skates with Helmet & Protective Gear",
+      "category": "Kids & Baby",
+      "price": 4500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778498761550455719_Kids_Quad_Roller_Skating_Shoes_Set_1_-j3GaokqU.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778498761550455719_Kids_Quad_Roller_Skating_Shoes_Set_1_-j3GaokqU.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778498761557995050_Kids_Quad_Roller_Skating_Shoes_Set_2_gFGS0IQNK.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778498761555476116_Kids_Quad_Roller_Skating_Shoes_Set__ZbM-_uUq.webp"
+      ],
+      "badge": "Hot",
+      "description": "A complete kids quad skating set featuring stylish adjustable roller skates, safety helmet, and protective pads for safe and fun outdoor skating.",
+      "inStock": true,
+      "slug": "kids-quad-roller-skating-shoes-set-adjustable-skates-with-helmet-protective-gear",
+      "brand": "Generic"
+    },
+    {
+      "name": "Kids Inline Skates Set – Adjustable Roller Blades with Helmet & Protective Gear",
+      "category": "Kids & Baby",
+      "price": 4500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778498180141769604_Kids_Inline_Skates_Set___Adjustable_Roller_Blades_with_Helmet___Protective_Gear_2_KmsjGwf62.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778498180141769604_Kids_Inline_Skates_Set___Adjustable_Roller_Blades_with_Helmet___Protective_Gear_2_KmsjGwf62.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778498180041903483_Kids_Inline_Skates_Set___Adjustable_Roller_Blades_with_Helmet___Protective_Gear_1_lRjbtQIi3.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778498180061513060_Kids_Inline_Skates_Set___Adjustable_Roller_Blades_with_Helmet___Protective_Gear_3_ZHhPQwMh0.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778498179749181614_Kids_Inline_Skates_Set___Adjustable_Roller_Blades_with_Helmet___Protective_Gear_Jb6WdXWJn.webp"
+      ],
+      "badge": "Hot",
+      "description": "A complete kids inline skating set featuring adjustable roller blades, protective helmet, and safety pads for a smooth, safe, and fun skating experience.",
+      "inStock": true,
+      "slug": "kids-inline-skates-set-adjustable-roller-blades-with-helmet-protective-gear",
+      "brand": "Generic"
+    },
+    {
+      "name": "Deep Tissue Massage Gun – Smart Fascia Muscle Massager with 4 Massage Heads",
+      "category": "Electronics & Gadgets",
+      "price": 1500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778497212050742438_Deep_Tissue_Massage_Gun_1_VxVX350Eg.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778497212050742438_Deep_Tissue_Massage_Gun_1_VxVX350Eg.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778497212058817652_Deep_Tissue_Massage_Gun_2_R8RsAA5fx.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778497212053625081_Deep_Tissue_Massage_Gun_UUvZs_abE.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778497211949676880_Deep_Tissue_Massage_Gun_3_LE3aA2bKFz.webp"
+      ],
+      "badge": "Hot",
+      "description": "A compact and powerful deep tissue massage gun designed to relieve muscle tension, improve recovery, and provide relaxing full-body massage therapy anytime.",
+      "inStock": true,
+      "slug": "deep-tissue-massage-gun-smart-fascia-muscle-massager-with-4-massage-heads",
+      "brand": "Generic"
+    },
+    {
+      "name": "3 Column Commercial Juice Dispenser – 18L x 3 Cold Beverage Machine with Condenser Cooling",
+      "category": "Home & Kitchen",
+      "price": 65000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778496571454307270_3_Column_Commercial_Juice_Dispenser___18L_x_3_Cold_Beverage_Machine_with_Condenser_Cooling_1_TkC1SzxnCl.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778496571454307270_3_Column_Commercial_Juice_Dispenser___18L_x_3_Cold_Beverage_Machine_with_Condenser_Cooling_1_TkC1SzxnCl.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778496571446100140_3_Column_Commercial_Juice_Dispenser___18L_x_3_Cold_Beverage_Machine_with_Condenser_Cooling_2_gz4VPrE1Y.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778496571347360116_3_Column_Commercial_Juice_Dispenser___18L_x_3_Cold_Beverage_Machine_with_Condenser_Cooling_3_GzsBsjgRk.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778496571459128643_3_Column_Commercial_Juice_Dispenser___18L_x_3_Cold_Beverage_Machine_with_Condenser_Cooling_4_lmWR29qd1.webp"
+      ],
+      "badge": "Hot",
+      "description": "A high-capacity commercial juice dispenser with 3 independent 18-liter tanks, powerful condenser cooling system, and durable stainless steel construction for hotels, restaurants, and juice businesses.",
+      "inStock": true,
+      "slug": "3-column-commercial-juice-dispenser-18l-x-3-cold-beverage-machine-with-condenser-cooling",
+      "brand": "Generic"
+    },
+    {
+      "name": "99800mAh Car Jump Starter Kit – Portable Power Bank with Air Compressor (300A Start / 600A Peak)",
+      "category": "Automotive",
+      "price": 4500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778499696260723538_jump-starter-type-2-4_oICndqL8j.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778499696260723538_jump-starter-type-2-4_oICndqL8j.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778499678340962413_jump-starter-type-2-3_eyFU08Ylc.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778499658384127601_jump-starter-type-2-2_U7_ZxUWLr.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778499632949305434_jump-starter-type-2-1_FZMQ1CtiI.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful all-in-one car emergency kit featuring a 99800mAh jump starter, built-in air compressor, and multi-device charging support.",
+      "inStock": true,
+      "slug": "99800mah-car-jump-starter-kit-portable-power-bank-with-air-compressor-300a-start-600a-peak",
+      "brand": "Generic"
+    },
+    {
+      "name": "Adjustable Hand Grip Strengthener Set – 5-in-1 Forearm & Finger Exerciser Kit",
+      "category": "Health & Wellness",
+      "price": 999,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1777825349639919491_hand-grip_yR7Bk2c2y.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1777825349639919491_hand-grip_yR7Bk2c2y.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1777825350812930941_hand-grip2_cIBrLlaGJ.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1777825351880746932_hand-grip3_AgZKe3hT7.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1777825353049635965_hand-grip4_WNQ8DN0xH.webp"
+      ],
+      "badge": "Hot",
+      "description": "A complete hand grip strengthener set with adjustable resistance and multiple tools designed to improve grip strength, finger flexibility, and forearm power.",
+      "inStock": true,
+      "slug": "adjustable-hand-grip-strengthener-set-5-in-1-forearm-finger-exerciser-kit",
+      "brand": "Generic"
+    },
+    {
+      "name": "Foldable Step Ladder – Heavy Duty Multi-Step Household Ladder",
+      "category": "Tools",
+      "price": 4000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1777823683070465222_ladder-1_XblhmqZap.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1777823683070465222_ladder-1_XblhmqZap.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1777823684337999236_ladder-2_4ZDkrvcVi.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1777823685480828093_ladder-3_VNliwgXeV.webp"
+      ],
+      "badge": "Hot",
+      "description": "A space-saving foldable ladder available in multiple step options, designed for safe and convenient use at home, shop, or workplace.",
+      "inStock": true,
+      "slug": "foldable-step-ladder-heavy-duty-multi-step-household-ladder",
+      "brand": "Generic"
+    },
+    {
+      "name": "Makita 36V Cordless Drill Set – Complete Tool Kit with Accessories",
+      "category": "Tools",
+      "price": 5500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1777822172638199884_makita-drill-set_an9bOOxxH.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1777822172638199884_makita-drill-set_an9bOOxxH.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful 36V cordless drill set bundled with a complete range of tools and accessories, ideal for home use, repairs, and professional tasks.",
+      "inStock": true,
+      "slug": "makita-36v-cordless-drill-set-complete-tool-kit-with-accessories",
+      "brand": "Makita"
+    },
+    {
+      "name": "Fully Automatic Egg Incubators – Smart AC/DC Digital Hatching Machines (64 to 1056 Eggs)",
+      "category": "Agriculture & Farm",
+      "price": 10999,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1777820919140092978_incubator_64_MnbrKF96V.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1777820919140092978_incubator_64_MnbrKF96V.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1777820921038840346_incubator_64_2_JAbbTWwtr.webp"
+      ],
+      "badge": "Hot",
+      "description": "A scalable range of fully automatic egg incubators with digital control and AC/DC power support, designed for both small and commercial poultry farming.",
+      "inStock": true,
+      "slug": "fully-automatic-egg-incubators-smart-ac-dc-digital-hatching-machines-64-to-1056-eggs",
+      "brand": "Generic"
+    },
+    {
+      "name": "Kids 3-Wheel Scooter – Stable Ride with Smooth Wheels",
+      "category": "Kids & Baby",
+      "price": 1500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1777819564403202123_scooter1_PSC9NcAd1.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1777819564403202123_scooter1_PSC9NcAd1.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1777819561849809330_scooter_editted_ogQu33cCE.webp"
+      ],
+      "badge": "Hot",
+      "description": "A fun, safe, and lightweight scooter designed for kids, featuring a stable 3-wheel design and smooth ride for everyday outdoor play.",
+      "inStock": true,
+      "slug": "kids-3-wheel-scooter-stable-ride-with-smooth-wheels",
+      "brand": "Generic"
+    },
+    {
+      "name": "Modio M92 Tablet 11 inch HD 16GB RAM 1TB Storage Android 15 (Full Set)",
+      "category": "Electronics & Gadgets",
+      "price": 12500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1777811162247167600_Modio_RcBetr4ep.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1777811162247167600_Modio_RcBetr4ep.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1777811160903854627_modio_e7SgN-nvr.webp"
+      ],
+      "badge": "Hot",
+      "description": "A powerful all-in-one tablet featuring Android 15, octa-core performance, and massive 1TB storage—perfect for work, study, and entertainment.",
+      "inStock": true,
+      "slug": "modio-m92-tablet-11-inch-hd-16gb-ram-1tb-storage-android-15-full-set",
+      "brand": "Modio"
+    },
+    {
+      "name": "3-in-1 Car Jump Starter Kit 99800mAh Power Bank with Air Compressor 150 PSI",
+      "category": "Automotive",
+      "price": 6500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1777401459718981424_car_jump_primary_Iu-MLWqVU.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1777401459718981424_car_jump_primary_Iu-MLWqVU.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1777996593397001091_jum_start_3_y5t8wTfv8.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1777401460727795621_car_jump_2_rgW43LLN3.webp"
+      ],
+      "badge": "Hot",
+      "description": "A multifunctional emergency kit combining a powerful car jump starter, high-capacity power bank, and air compressor—ideal for every driver.",
+      "inStock": true,
+      "slug": "3-in-1-car-jump-starter-kit-99800mah-power-bank-with-air-compressor-150-psi",
+      "brand": "Generic"
+    },
+    {
+      "name": "Foldable Zero Gravity Camping Recliner Chair",
+      "category": "Home & Kitchen",
+      "price": 8000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780857139829722091_Foldable_Zero_Gravity_Camping_Recliner_Chair_X1F_Jc3Kg.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780857139829722091_Foldable_Zero_Gravity_Camping_Recliner_Chair_X1F_Jc3Kg.webp"
+      ],
+      "badge": "",
+      "description": "Relax in ultimate comfort with this foldable zero gravity camping chair featuring an adjustable reclining design, padded headrest, armrests, and a sturdy steel frame for indoor and outdoor use.",
+      "inStock": true,
+      "slug": "foldable-zero-gravity-camping-recliner-chair",
+      "brand": "Generic"
+    },
+    {
+      "name": "Ramtons Electric Pressure Cooker 6L / 8L Multi-Function Cooker",
+      "category": "Electronics & Gadgets",
+      "price": 12500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780856951228131125_Ramtons_Electric_Pressure_Cooker_6L__8L_Multi-Function_Cooker__2__nBfVer0g_.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780856951228131125_Ramtons_Electric_Pressure_Cooker_6L__8L_Multi-Function_Cooker__2__nBfVer0g_.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780856951144267842_Ramtons_Electric_Pressure_Cooker_6L__8L_Multi-Function_Cooker_uv7KHXMEb.webp"
+      ],
+      "badge": "",
+      "description": "Cook meals faster and more efficiently with the Ramtons Electric Pressure Cooker. Featuring multiple cooking programs, digital controls, and a durable aluminum inner pot, it is perfect for modern kitchens.",
+      "inStock": true,
+      "slug": "ramtons-electric-pressure-cooker-6l-8l-multi-function-cooker",
+      "brand": "Ramtons"
+    },
+    {
+      "name": "320 Egg Automatic Digital Incubator",
+      "category": "Agriculture & Farm",
+      "price": 26000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780856704846553634_320_Egg_Automatic_Digital_Incubator__2__ymM5qd5Qa.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780856704846553634_320_Egg_Automatic_Digital_Incubator__2__ymM5qd5Qa.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1780856704930948240_320_Egg_Automatic_Digital_Incubator_EzvTlsH2r.webp"
+      ],
+      "badge": "",
+      "description": "A high-capacity fully automatic egg incubator designed for poultry farmers and hatcheries. Features automatic egg turning, digital temperature and humidity control, and a transparent cabinet for easy monitoring.",
+      "inStock": true,
+      "slug": "320-egg-automatic-digital-incubator",
+      "brand": "Generic"
+    },
+    {
+      "name": "Premium Foldable Ironing Board with Iron Rest Stand",
+      "category": "Home & Kitchen",
+      "price": 3500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1780856186866012304_Premium_Foldable_Ironing_Board_with_Iron_Rest_Stand_ofwRB3DQ0.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1780856186866012304_Premium_Foldable_Ironing_Board_with_Iron_Rest_Stand_ofwRB3DQ0.webp"
+      ],
+      "badge": "",
+      "description": "A sturdy and space-saving foldable ironing board designed for convenient home use. Features a durable ironing surface, stable frame, and integrated iron rest for comfortable and efficient ironing.",
+      "inStock": true,
+      "slug": "premium-foldable-ironing-board-with-iron-rest-stand",
+      "brand": "JYL"
+    },
+    {
+      "name": "Tanda MTB Bicycle – Sizes 24 & 26",
+      "category": "Automotive",
+      "price": 16000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779801384527752688_Tanda_MTB_Bicycle___Sizes_24___26__2__iuM6hFZl0.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779801384527752688_Tanda_MTB_Bicycle___Sizes_24___26__2__iuM6hFZl0.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779801384450149747_Tanda_MTB_Bicycle___Sizes_24___26_t6gjFM6ED.webp"
+      ],
+      "badge": "",
+      "description": "The Tanda MTB Bicycle is a sporty multi-speed mountain bike designed for fitness, commuting, and outdoor adventures with front suspension, disc brakes, and durable off-road performance.",
+      "inStock": true,
+      "slug": "tanda-mtb-bicycle-sizes-24-26",
+      "brand": "Tanda"
+    },
+    {
+      "name": "TZSZ MTB Bicycle 26 Inch",
+      "category": "Automotive",
+      "price": 13000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779801194644243625_TZSZ_MTB_Bicycle_26_Inch__3__AY2IUfV7e.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779801194644243625_TZSZ_MTB_Bicycle_26_Inch__3__AY2IUfV7e.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779801194744496444_TZSZ_MTB_Bicycle_26_Inch__4__EzqW_6_9s.webp"
+      ],
+      "badge": "",
+      "description": "The TZSZ MTB Bicycle is a sporty multi-speed mountain bike designed for daily commuting, outdoor adventures, fitness riding, and rough terrain performance with disc brakes and durable construction.",
+      "inStock": true,
+      "slug": "tzsz-mtb-bicycle-26-inch",
+      "brand": "TZSZ"
+    },
+    {
+      "name": "Unirox MTB Bicycle – Sizes 24 & 26",
+      "category": "Automotive",
+      "price": 18000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779800988271468660_Unirox_MTB_Bicycle___Sizes_24___26_GV3uQ2OCX.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800988271468660_Unirox_MTB_Bicycle___Sizes_24___26_GV3uQ2OCX.webp"
+      ],
+      "badge": "",
+      "description": "The Unirox MTB Bicycle is a sporty multi-speed mountain bike designed for commuting, fitness, and outdoor adventures with front suspension, disc brakes, and durable off-road tires.",
+      "inStock": true,
+      "slug": "unirox-mtb-bicycle-sizes-24-26",
+      "brand": "Unirox"
+    },
+    {
+      "name": "YSMI Mountain Bike 22 Inch",
+      "category": "Automotive",
+      "price": 12500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779800727442843793_YSMI_Mountain_Bike_22_Inch__3__Wi-C_NHqX.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800727442843793_YSMI_Mountain_Bike_22_Inch__3__Wi-C_NHqX.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800727528201367_YSMI_Mountain_Bike_22_Inch__4__40f4gOFAB.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800727528752850_YSMI_Mountain_Bike_22_Inch_OySjhcvtD.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800727233496906_YSMI_Mountain_Bike_22_Inch__2__-rFtAZgWJ.webp"
+      ],
+      "badge": "",
+      "description": "The YSMI Mountain Bike is a durable and stylish multi-speed bicycle designed for outdoor adventures, fitness riding, commuting, and rough terrain performance with front suspension and disc brakes.",
+      "inStock": true,
+      "slug": "ysmi-mountain-bike-22-inch",
+      "brand": "YSMI"
+    },
+    {
+      "name": "Tanda Single Speed Bicycle – Sizes 24 & 26",
+      "category": "Automotive",
+      "price": 12000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779800466038190037_Tanda_Single_Speed_Bicycle___Sizes_24___26__2__EBZgE-jIu.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800466038190037_Tanda_Single_Speed_Bicycle___Sizes_24___26__2__EBZgE-jIu.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800466038770291_Tanda_Single_Speed_Bicycle___Sizes_24___26__3__6LxWcB1gb.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800466032477374_Tanda_Single_Speed_Bicycle___Sizes_24___26__4__XMJqwPJEO.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779800466129174383_Tanda_Single_Speed_Bicycle___Sizes_24___26__5__t2CR6Gu4m.webp"
+      ],
+      "badge": "",
+      "description": "The Tanda Single Speed Bicycle is a durable and stylish everyday road bike designed for smooth commuting, school rides, fitness, and comfortable daily cycling.",
+      "inStock": true,
+      "slug": "tanda-single-speed-bicycle-sizes-24-26",
+      "brand": "Tanda"
+    },
+    {
+      "name": "Nduthi Kids Bicycle with Training Wheels",
+      "category": "Kids & Baby",
+      "price": 7000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779799270630842840_Nduthi_Kids_Bicycle_with_Training_Wheels__3__lr7kkelN5.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779799270630842840_Nduthi_Kids_Bicycle_with_Training_Wheels__3__lr7kkelN5.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779799270736050195_Nduthi_Kids_Bicycle_with_Training_Wheels_BRimQ0GS9.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779799270640466481_Nduthi_Kids_Bicycle_with_Training_Wheels__2__jHuq2qsqn.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779799270746700100_Nduthi_Kids_Bicycle_with_Training_Wheels__4__wKjfMcqNz.webp"
+      ],
+      "badge": "",
+      "description": "The Nduthi Kids Bicycle is a stylish and durable children's bike designed for fun, balance, and safe riding, available in multiple sizes for growing kids.",
+      "inStock": true,
+      "slug": "nduthi-kids-bicycle-with-training-wheels",
+      "brand": "Nduthi Bike"
+    },
+    {
+      "name": "Signature 4-in-1 Multifunctional Blender SG161A",
+      "category": "Home & Kitchen",
+      "price": 5800,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779699457742698443_Signature_4-in-1_Multifunctional_Blender_SG161A_cVPBptOWF.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779699457742698443_Signature_4-in-1_Multifunctional_Blender_SG161A_cVPBptOWF.webp"
+      ],
+      "badge": "",
+      "description": "The Signature SG161A 4-in-1 Multifunctional Blender combines blending, grinding, chopping, and mixing functions with a powerful 1000W motor for fast and efficient food preparation.",
+      "inStock": true,
+      "slug": "signature-4-in-1-multifunctional-blender-sg161a",
+      "brand": "Signature"
+    },
+    {
+      "name": "Signature SG-HS360D Commercial Blender 1800W – 5L Jar",
+      "category": "Home & Kitchen",
+      "price": 15000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779699253944920236_Signature_SG-HS360D_Commercial_Blender_1800W___5L_Jar_LczYDG5VW.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779699253944920236_Signature_SG-HS360D_Commercial_Blender_1800W___5L_Jar_LczYDG5VW.webp"
+      ],
+      "badge": "",
+      "description": "The Signature SG-HS360D Commercial Blender delivers powerful 1800W blending performance with a large 5-litre unbreakable jar, making it ideal for smoothies, juice shops, restaurants, and commercial food preparation.",
+      "inStock": true,
+      "slug": "signature-sg-hs360d-commercial-blender-1800w-5l-jar",
+      "brand": "Signature"
+    },
+    {
+      "name": "Signature 6 Litres Electric Pressure Cooker Pro – 1000W",
+      "category": "Home & Kitchen",
+      "price": 9000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779698990233167714_Signature_6_Litres_Electric_Pressure_Cooker_Pro___1000W_9Ld57dDAC.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779698990233167714_Signature_6_Litres_Electric_Pressure_Cooker_Pro___1000W_9Ld57dDAC.webp"
+      ],
+      "badge": "",
+      "description": "The Signature 6L Electric Pressure Cooker Pro delivers fast, safe, and convenient cooking with multiple smart cooking modes, a 1000W heating system, and a durable non-stick inner pot.",
+      "inStock": true,
+      "slug": "signature-6-litres-electric-pressure-cooker-pro-1000w",
+      "brand": "Signature"
+    },
+    {
+      "name": "Foldable Kitchen Storage Rack with Wheels – 4 Tier & 5 Tier",
+      "category": "Home & Kitchen",
+      "price": 5000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779698635038523433_Foldable_Kitchen_Storage_Rack_with_Wheels___4_Tier___5_Tier_p0oDQ2KV3.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779698635038523433_Foldable_Kitchen_Storage_Rack_with_Wheels___4_Tier___5_Tier_p0oDQ2KV3.webp"
+      ],
+      "badge": "",
+      "description": "A modern foldable kitchen storage rack with smooth rolling wheels, designed to organize microwaves, cookers, utensils, spices, and kitchen appliances while saving space in your home.",
+      "inStock": true,
+      "slug": "foldable-kitchen-storage-rack-with-wheels-4-tier-5-tier",
+      "brand": "Generic"
+    },
+    {
+      "name": "Heavy Duty POS Cash Drawer",
+      "category": "Home & Kitchen",
+      "price": 7000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779698273250901739_Heavy_Duty_POS_Cash_Drawer_blFOGsr9y.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779698273250901739_Heavy_Duty_POS_Cash_Drawer_blFOGsr9y.webp"
+      ],
+      "badge": "",
+      "description": "A durable and secure POS cash drawer designed for supermarkets, retail shops, restaurants, pharmacies, and businesses requiring efficient cash management and organized money storage.",
+      "inStock": true,
+      "slug": "heavy-duty-pos-cash-drawer",
+      "brand": "Generic"
+    },
+    {
+      "name": "Professional Electrician Repair Tool Set Kit",
+      "category": "Tools",
+      "price": 5000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779696286343148506_Professional_Electrician_Repair_Tool_Set_Kit_8mDuhi9j8.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779696286343148506_Professional_Electrician_Repair_Tool_Set_Kit_8mDuhi9j8.webp"
+      ],
+      "badge": "",
+      "description": "A complete multi-purpose electrician tool kit featuring essential repair, testing, soldering, and maintenance tools packed in a durable portable carry case for professional and home use.",
+      "inStock": true,
+      "slug": "professional-electrician-repair-tool-set-kit",
+      "brand": "Generic"
+    },
+    {
+      "name": "TK-M8 Commercial Electric Meat Mincer Machine",
+      "category": "Home & Kitchen",
+      "price": 15000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779696040738395603_TK-M8_Commercial_Electric_Meat_Mincer_Machine_Nic7mLIyu.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779696040738395603_TK-M8_Commercial_Electric_Meat_Mincer_Machine_Nic7mLIyu.webp"
+      ],
+      "badge": "",
+      "description": "The TK-M8 Commercial Electric Meat Mincer is a powerful stainless steel meat grinding machine designed for fast and efficient meat processing for homes, butcheries, restaurants, and commercial kitchens.",
+      "inStock": true,
+      "slug": "tk-m8-commercial-electric-meat-mincer-machine",
+      "brand": "TK"
+    },
+    {
+      "name": "Makita Electric Drill & Angle Grinder Combo Set",
+      "category": "Tools",
+      "price": 5900,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779695849464497731_Makita_Electric_Drill___Angle_Grinder_Combo_Set_gSDiSP7SC.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779695849464497731_Makita_Electric_Drill___Angle_Grinder_Combo_Set_gSDiSP7SC.webp"
+      ],
+      "badge": "",
+      "description": "A versatile Makita combo power tool kit featuring a high-performance electric drill and angle grinder, complete with accessories and a durable carry case for professional and home use.",
+      "inStock": true,
+      "slug": "makita-electric-drill-angle-grinder-combo-set",
+      "brand": "Makita"
+    },
+    {
+      "name": "Edenberg 12 Piece Stainless Steel Cookware Set EB-4036",
+      "category": "Home & Kitchen",
+      "price": 9999,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779695624444108731_Edenberg_12_Piece_Stainless_Steel_Cookware_Set_EB-4036__2__xHSdZnjJZ.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779695624444108731_Edenberg_12_Piece_Stainless_Steel_Cookware_Set_EB-4036__2__xHSdZnjJZ.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1779695624536170175_Edenberg_12_Piece_Stainless_Steel_Cookware_Set_EB-4036_WRbHEDWyG.webp"
+      ],
+      "badge": "",
+      "description": "Upgrade your kitchen with the Edenberg 12pc Stainless Steel Cookware Set featuring durable stainless steel construction, induction compatibility, tempered glass lids, and elegant modern finishing for everyday cooking.",
+      "inStock": true,
+      "slug": "edenberg-12-piece-stainless-steel-cookware-set-eb-4036",
+      "brand": "Edenberg"
+    },
+    {
+      "name": "Roch 2 in 1 Blender RBL-375-D – 1.75L Jug with Grinder",
+      "category": "Home & Kitchen",
+      "price": 2500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779695392433877804_Roch_2_in_1_Blender_RBL-375-D___1.75L_Jug_with_Grinder_C30HXPNVy.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779695392433877804_Roch_2_in_1_Blender_RBL-375-D___1.75L_Jug_with_Grinder_C30HXPNVy.webp"
+      ],
+      "badge": "",
+      "description": "Compact 2-in-1 Roch blender featuring a 1.75L capacity jar, grinder attachment, 4-speed control system, and 350W motor for blending, grinding, and everyday kitchen preparation.",
+      "inStock": true,
+      "slug": "roch-2-in-1-blender-rbl-375-d-1-75l-jug-with-grinder",
+      "brand": "Roch"
+    },
+    {
+      "name": "Silver Crest SC-1589 Commercial Blender – 8500W Heavy Duty Multifunction Blender",
+      "category": "Home & Kitchen",
+      "price": 2999,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779695094473949188_Silver_Crest_SC-1589_Commercial_Blender___8500W_Heavy_Duty_Multifunction_Blender_K-2PSVHSt.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779695094473949188_Silver_Crest_SC-1589_Commercial_Blender___8500W_Heavy_Duty_Multifunction_Blender_K-2PSVHSt.webp"
+      ],
+      "badge": "",
+      "description": "High-performance Silver Crest commercial blender with 8500W power, copper motor, multifunction blending system, and heavy-duty design for smoothies, juices, grinding, and food processing.",
+      "inStock": true,
+      "slug": "silver-crest-sc-1589-commercial-blender-8500w-heavy-duty-multifunction-blender",
+      "brand": "Silver Crest"
+    },
+    {
+      "name": "Nunix LTS-02 Standing Cooker – 3 Gas Burners + 1 Electric Plate",
+      "category": "Home & Kitchen",
+      "price": 8000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779642415536851661_Nunix_LTS-02_Standing_Cooker___3_Gas_Burners___1_Electric_Plate_feMyWv7T2.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779642415536851661_Nunix_LTS-02_Standing_Cooker___3_Gas_Burners___1_Electric_Plate_feMyWv7T2.webp"
+      ],
+      "badge": "",
+      "description": "Compact Nunix standing cooker featuring 3 gas burners, 1 electric hot plate, storage shelves, and durable steel construction for efficient everyday cooking.",
+      "inStock": true,
+      "slug": "nunix-lts-02-standing-cooker-3-gas-burners-1-electric-plate",
+      "brand": "Nunix"
+    },
+    {
+      "name": "Ramtons Coffee Maker with Stainless Steel Jar RM/768 – 1L",
+      "category": "Home & Kitchen",
+      "price": 6000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779641691659311819_Ramtons_Coffee_Maker_with_Stainless_Steel_Jar_RM768___1L_C_9qMaXfr.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779641691659311819_Ramtons_Coffee_Maker_with_Stainless_Steel_Jar_RM768___1L_C_9qMaXfr.webp"
+      ],
+      "badge": "",
+      "description": "Elegant Ramtons coffee maker featuring a 1-litre stainless steel thermal jar, fast brewing system, and easy operation for home or office coffee preparation.",
+      "inStock": true,
+      "slug": "ramtons-coffee-maker-with-stainless-steel-jar-rm-768-1l",
+      "brand": "Ramtons"
+    },
+    {
+      "name": "Ramtons 3-in-1 Juicer, Blender & Grinder RM/278",
+      "category": "Home & Kitchen",
+      "price": 8000,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779641252061886519_Ramtons_3-in-1_Juicer__Blender___Grinder_RM278_kJN1Z3K-B.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779641252061886519_Ramtons_3-in-1_Juicer__Blender___Grinder_RM278_kJN1Z3K-B.webp"
+      ],
+      "badge": "",
+      "description": "Multi-functional 3-in-1 kitchen appliance combining juicer, blender, and grinder functions for preparing fresh juice, smoothies, spices, coffee, and food ingredients conveniently.",
+      "inStock": true,
+      "slug": "ramtons-3-in-1-juicer-blender-grinder-rm-278",
+      "brand": "Ramtons"
+    },
+    {
+      "name": "Super Scanner Garrett Handheld Metal Detector",
+      "category": "Electronics & Gadgets",
+      "price": 2500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779640521144843576_Super_Scanner_Garrett_Handheld_Metal_Detector_SE8_zdlL6.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779640521144843576_Super_Scanner_Garrett_Handheld_Metal_Detector_SE8_zdlL6.webp"
+      ],
+      "badge": "",
+      "description": "Portable high-sensitivity handheld metal detector designed for security screening, event access control, school inspections, and anti-theft operations.",
+      "inStock": true,
+      "slug": "super-scanner-garrett-handheld-metal-detector",
+      "brand": "Garrett"
+    },
+    {
+      "name": "188VF Cordless Adjustable Car Washer Gun",
+      "category": "Automotive",
+      "price": 5500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779640322769964738_188VF_Cordless_Adjustable_Car_Washer_Gun__UwesqMJE.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779640322769964738_188VF_Cordless_Adjustable_Car_Washer_Gun__UwesqMJE.webp"
+      ],
+      "badge": "",
+      "description": "Portable high-pressure cordless car washer gun with adjustable spray modes, rechargeable batteries, foam bottle, and water hose for efficient car and home cleaning.",
+      "inStock": true,
+      "slug": "188vf-cordless-adjustable-car-washer-gun",
+      "brand": "Euromax"
+    },
+    {
+      "name": "GSM 6588 Dual SIM Fixed Wireless Desk Phone",
+      "category": "Electronics & Gadgets",
+      "price": 3500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779639414174639414_GSM_6588_Dual_SIM_Fixed_Wireless_Desk_Phone_PztZ883Nv.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779639414174639414_GSM_6588_Dual_SIM_Fixed_Wireless_Desk_Phone_PztZ883Nv.webp"
+      ],
+      "badge": "",
+      "description": "Reliable dual SIM GSM desk phone with wireless connectivity, loud speaker, clear display, and long-lasting performance for office, shop, home, and business communication.",
+      "inStock": true,
+      "slug": "gsm-6588-dual-sim-fixed-wireless-desk-phone",
+      "brand": "GSM"
+    },
+    {
+      "name": "Nunix A3C Smart Bottom Load Water Dispenser with Voice Recognition",
+      "category": "Health & Wellness",
+      "price": 10500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779633626474924107_Nunix_A3C_Smart_Bottom_Load_Water_Dispenser_with_Voice_Recognition_KywC_vbA2.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779633626474924107_Nunix_A3C_Smart_Bottom_Load_Water_Dispenser_with_Voice_Recognition_KywC_vbA2.webp"
+      ],
+      "badge": "",
+      "description": "A premium smart bottom-load water dispenser featuring voice recognition, hot and cold water dispensing, touchscreen controls, and elegant modern styling for homes and offices.",
+      "inStock": true,
+      "slug": "nunix-a3c-smart-bottom-load-water-dispenser-with-voice-recognition",
+      "brand": "Nunix"
+    },
+    {
+      "name": "Nunix A2C-X2 Bottom Load Water Dispenser with Woofer Speaker",
+      "category": "Electronics & Gadgets",
+      "price": 11500,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1779633234262906649_Nunix_A2C-X2_Bottom_Load_Water_Dispenser_with_Woofer_Speaker_EMcBhk9Mj.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1779633234262906649_Nunix_A2C-X2_Bottom_Load_Water_Dispenser_with_Woofer_Speaker_EMcBhk9Mj.webp"
+      ],
+      "badge": "",
+      "description": "A premium smart bottom-load water dispenser featuring hot and cold water dispensing, integrated woofer speaker system, touch controls, and modern glossy design perfect for homes and offices.",
+      "inStock": true,
+      "slug": "nunix-a2c-x2-bottom-load-water-dispenser-with-woofer-speaker",
+      "brand": "Nunix"
+    },
+    {
+      "name": "Premium Inflatable Lounge Seat with Footrest",
+      "category": "Home & Kitchen",
+      "price": 3200,
+      "image": "https://ik.imagekit.io/anthonyalando/zentora/1778937978222174040_Premium_Inflatable_Lounge_Seat_with_Footrest__3__x16ObERvf.webp",
+      "images": [
+        "https://ik.imagekit.io/anthonyalando/zentora/1778937978222174040_Premium_Inflatable_Lounge_Seat_with_Footrest__3__x16ObERvf.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778937978120557496_Premium_Inflatable_Lounge_Seat_with_Footrest__2__WfLcOl4T5.webp",
+        "https://ik.imagekit.io/anthonyalando/zentora/1778937978121535864_Premium_Inflatable_Lounge_Seat_with_Footrest_Q7aYK6Mnr.webp"
+      ],
+      "badge": "",
+      "description": "Relax in style with this comfortable inflatable lounge chair and matching footrest set. Designed for ultimate comfort, portability, and modern home living.",
+      "inStock": true,
+      "slug": "premium-inflatable-lounge-seat-with-footrest",
+      "brand": "Generic"
     }
   ]
 }

@@ -1,6 +1,6 @@
 /**
  * SELLEH SHOP KENYA — site behaviour
- * Loads products from the Google Sheet, customer ratings from /api/reviews,
+ * Loads products from catalog.json, customer ratings from /api/reviews,
  * and wires up search, filters, product pages, and WhatsApp ordering.
  */
 (function () {
@@ -186,53 +186,21 @@
   }
 
   function loadCatalogSnapshot() {
-    fetch("catalog.json?t=" + Date.now())
+    const url = (CONFIG.catalogUrl || "catalog.json") + "?t=" + Date.now();
+    fetch(url)
       .then((res) => (res.ok ? res.json() : { products: [] }))
       .then((data) => {
         state.products = productsFromCatalogJson(data);
-        state.usingLiveSheet = false;
         onProductsReady();
       })
       .catch(() => {
         state.products = [];
-        state.usingLiveSheet = false;
         onProductsReady();
       });
   }
 
   function loadProducts() {
-    const url = (CONFIG.sheetCsvUrl || "").trim();
-    if (!url || typeof Papa === "undefined") {
-      loadCatalogSnapshot();
-      return;
-    }
-
-    const fetchUrl = url + (url.indexOf("?") >= 0 ? "&" : "?") + "_=" + Date.now();
-    Papa.parse(fetchUrl, {
-      download: true,
-      header: true,
-      skipEmptyLines: true,
-      complete: function (results) {
-        const rows = (results.data || []).filter((r) => {
-          const name = String(r.Name || r.name || "").trim();
-          if (!name) return false;
-          if (/^example\b/i.test(name)) return false;
-          return true;
-        });
-        const products = rows.map(normalizeRow).filter((p) => p && p.name);
-        if (!products.length) {
-          loadCatalogSnapshot();
-          return;
-        }
-        state.products = products;
-        state.usingLiveSheet = true;
-        onProductsReady();
-      },
-      error: function () {
-        console.warn("Selleh Shop: could not load the product sheet.");
-        loadCatalogSnapshot();
-      },
-    });
+    loadCatalogSnapshot();
   }
 
   function onProductsReady() {
@@ -1076,9 +1044,6 @@
     loadReviews();
     animateCounters();
 
-    if (CONFIG.sheetCsvUrl && CONFIG.refreshMinutes > 0) {
-      setInterval(loadProducts, CONFIG.refreshMinutes * 60 * 1000);
-    }
     if (CONFIG.refreshMinutes > 0) {
       setInterval(loadReviews, CONFIG.refreshMinutes * 60 * 1000);
     }

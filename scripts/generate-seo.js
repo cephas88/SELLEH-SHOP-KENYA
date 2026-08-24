@@ -1,70 +1,12 @@
 /**
- * Build-time SEO snapshot: pull the live catalog and write product URLs
+ * Build-time SEO snapshot: read catalog.json and write product URLs
  * into sitemap.xml so Google can discover items by name.
  */
 const fs = require("fs");
 const path = require("path");
-const https = require("https");
 
 const ROOT = path.resolve(__dirname, "..");
 const SITE = "https://sellehshopkenya.co.ke";
-const SHEET =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vR1R6_3G1OF6-4cKiyseWOG4L2Zr9nTRvYktzLFjNc7gKDg6NO63zrZV_NU2SNsmGVoCZ8QSab_1Oin/pub?gid=1279991868&single=true&output=csv";
-
-function fetchText(url) {
-  return new Promise((resolve, reject) => {
-    const req = https.get(url, { timeout: 15000 }, (res) => {
-      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        return fetchText(res.headers.location).then(resolve, reject);
-      }
-      if (res.statusCode !== 200) {
-        res.resume();
-        return reject(new Error("HTTP " + res.statusCode));
-      }
-      const chunks = [];
-      res.on("data", (c) => chunks.push(c));
-      res.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
-    });
-    req.on("error", reject);
-    req.on("timeout", () => req.destroy(new Error("timeout")));
-  });
-}
-
-function parseCsv(text) {
-  const lines = text.replace(/^\uFEFF/, "").split(/\r?\n/);
-  if (!lines.length) return [];
-  const parseLine = (line) => {
-    const out = [];
-    let cur = "";
-    let inQ = false;
-    for (let i = 0; i < line.length; i++) {
-      const c = line[i];
-      if (c === '"') {
-        if (inQ && line[i + 1] === '"') {
-          cur += '"';
-          i++;
-        } else inQ = !inQ;
-      } else if (c === "," && !inQ) {
-        out.push(cur);
-        cur = "";
-      } else cur += c;
-    }
-    out.push(cur);
-    return out;
-  };
-  const headers = parseLine(lines[0]).map((h) => h.trim());
-  const rows = [];
-  for (let i = 1; i < lines.length; i++) {
-    if (!lines[i].trim()) continue;
-    const cols = parseLine(lines[i]);
-    const row = {};
-    headers.forEach((h, j) => {
-      row[h] = (cols[j] || "").trim();
-    });
-    rows.push(row);
-  }
-  return rows;
-}
 
 function slugify(name) {
   return String(name || "")
@@ -83,21 +25,14 @@ function xmlEscape(s) {
     .replace(/"/g, "&#34;");
 }
 
-async function main() {
+function main() {
   let products = [];
+  const catalogPath = path.join(ROOT, "catalog.json");
   try {
-    const csv = await fetchText(SHEET);
-    products = parseCsv(csv)
-      .map((r) => ({
-        name: r.Name || r.name || "",
-        category: r.Category || r.category || "",
-        price: r.Price || r.price || "",
-        image: r.Image || r.image || "",
-        description: r.Description || r.description || "",
-      }))
-      .filter((p) => p.name && !/^example\b/i.test(p.name));
+    const raw = JSON.parse(fs.readFileSync(catalogPath, "utf8"));
+    products = (raw.products || []).filter((p) => p && p.name);
   } catch (err) {
-    console.warn("generate-seo: catalog fetch skipped:", err.message);
+    console.warn("generate-seo: catalog.json missing or invalid:", err.message);
   }
 
   const today = new Date().toISOString().slice(0, 10);
@@ -110,7 +45,7 @@ async function main() {
 
   const seen = new Set();
   products.forEach((p) => {
-    const slug = slugify(p.name);
+    const slug = p.slug || slugify(p.name);
     if (!slug || seen.has(slug)) return;
     seen.add(slug);
     urls.push({
@@ -147,35 +82,12 @@ async function main() {
     "\n</urlset>\n";
 
   fs.writeFileSync(path.join(ROOT, "sitemap.xml"), xml);
-  if (products.length) {
-    fs.writeFileSync(
-      path.join(ROOT, "catalog.json"),
-      JSON.stringify(
-        {
-          generatedAt: new Date().toISOString(),
-          products: products.map((p) => ({
-            name: p.name,
-            category: p.category,
-            price: p.price,
-            oldPrice: p.oldPrice || "",
-            image: p.image,
-            description: p.description,
-            badge: p.badge || "",
-            inStock: true,
-            slug: slugify(p.name),
-          })),
-        },
-        null,
-        2
-      )
-    );
-  } else {
-    console.warn("generate-seo: catalog.json left unchanged (sheet had 0 products)");
-  }
-  console.log("generate-seo: wrote sitemap.xml with", urls.length, "URLs and", products.length, "products");
+  console.log("generate-seo: wrote sitemap.xml with", urls.length, "URLs from", products.length, "catalog products");
 }
 
-main().catch((err) => {
+try {
+  main();
+} catch (err) {
   console.warn("generate-seo failed (deploy continues):", err.message);
   process.exit(0);
-});
+}
