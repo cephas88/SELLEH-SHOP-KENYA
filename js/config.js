@@ -32,7 +32,7 @@ const CONFIG = {
   // How often (in minutes) the page re-checks the sheet for changes
   // while a visitor is browsing, in addition to loading fresh data
   // on every page visit/refresh.
-  refreshMinutes: 5,
+  refreshMinutes: 1,
 
   // Customer ratings are stored on the site (not in the product sheet).
   reviewsApiUrl: "/api/reviews",

@@ -207,7 +207,8 @@
       return;
     }
 
-    Papa.parse(url, {
+    const fetchUrl = url + (url.indexOf("?") >= 0 ? "&" : "?") + "_=" + Date.now();
+    Papa.parse(fetchUrl, {
       download: true,
       header: true,
       skipEmptyLines: true,

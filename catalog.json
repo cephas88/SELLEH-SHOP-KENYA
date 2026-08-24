@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-08-24T15:00:00.000Z",
+  "generatedAt": "2026-08-24T15:12:00.000Z",
   "products": [
-    {
-      "name": "Wireless Bluetooth Earbuds",
-      "category": "Electronics & Gadgets",
-      "price": 1999,
-      "oldPrice": 2999,
-      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80",
-      "badge": "Hot",
-      "description": "Compact wireless earbuds with charging case. Order on WhatsApp for delivery anywhere in Nairobi, or pick up at Gaborone Plaza.",
-      "inStock": true,
-      "slug": "wireless-bluetooth-earbuds"
-    },
     {
       "name": "25W Fast Phone Charger",
       "category": "Electronics & Gadgets",
@@ -33,17 +22,6 @@
       "description": "Everyday crossbody bag. Shop in person at Gaborone Plaza or order on WhatsApp for Nairobi delivery.",
       "inStock": true,
       "slug": "ladies-crossbody-handbag"
-    },
-    {
-      "name": "Stainless Electric Kettle 1.8L",
-      "category": "Home & Kitchen",
-      "price": 1799,
-      "oldPrice": 2500,
-      "image": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=800&q=80",
-      "badge": "",
-      "description": "1.8 litre kettle with automatic shut-off. Available in-store and for delivery across Nairobi.",
-      "inStock": true,
-      "slug": "stainless-electric-kettle-18l"
     },
     {
       "name": "Moisturising Body Lotion 400ml",
