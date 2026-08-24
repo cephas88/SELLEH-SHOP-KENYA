@@ -1,26 +1,24 @@
 # Selleh Shop Kenya — Website
 
-A fast, static website for Selleh Shop Kenya. No hosting fees required to
-start, and products can be updated from a Google Sheet — no coding needed
-after initial setup.
+A fast, static website for Selleh Shop Kenya. Products update from a Google
+Sheet — no coding needed after setup. Customer ratings are posted on the
+site and appear immediately.
 
 ## What's in this project
 
 ```
 index.html          The whole site (one page)
 css/style.css        All styling (black / gold / white theme)
-js/config.js          Your contact info + the Google Sheet link
-js/products-data.js   Sample placeholder products (used until your Sheet is connected)
-js/main.js             Site behaviour (search, filters, WhatsApp links, etc.)
+js/config.js          Contact info + the Google Sheet link
+js/main.js             Shop behaviour (search, ratings, WhatsApp)
 assets/               Logo files
 robots.txt / sitemap.xml   Search engine files
-netlify.toml            Optional hosting config for Netlify
+netlify.toml            Hosting config
+netlify/functions       Stores customer reviews
 ```
 
-Right now the shop is full of **sample placeholder products** (clearly
-generic items with placeholder images) so you can see exactly how the real
-site will look and behave. Follow **Part 2** below whenever you're ready to
-switch to your real catalog — nothing else on the site needs to change.
+The catalog on the website is **only** what is in the Google Sheet. Add a
+product there and it appears on the shop; remove it and it disappears.
 
 ---
 
@@ -31,8 +29,6 @@ The shop is already live:
 - Website: [https://sellehshopkenya.co.ke](https://sellehshopkenya.co.ke)
 - GitHub: `cephas88/SELLEH-SHOP-KENYA` (Netlify auto-deploys every push to `main`)
 - Catalog sheet: [Selleh Shop Kenya — Products](https://docs.google.com/spreadsheets/d/1DZjoMganpZf033Fl3NOMnoRVIz0aXtpOETaOgWSt62w/edit)
-
-Until the sheet is published (Part 2), the site shows sample placeholder products. After the published CSV link is saved in `js/config.js`, the live catalog takes over.
 
 The site's canonical URLs (`index.html`, `sitemap.xml`, `robots.txt`) are set to `https://sellehshopkenya.co.ke/`.
 
@@ -104,66 +100,14 @@ real logo:
    1200×630px as `assets/og-image.jpg` — I can generate this for you too
    once I have the real logo file to work from.
 
-## Part 5 — Reviews: real 5-star ratings + comments, no fakes
+## Part 5 — Customer ratings
 
-The "Reviews" section deliberately does **not** show invented customer
-quotes — a brand-new shop has no real reviews yet, and fabricating them
-(fake names, fake stars) is the kind of thing that destroys trust the
-moment someone notices. Until you set this up, that section keeps showing
-three honest promises instead, and product cards show "No reviews yet."
+Shoppers tap **Rate this** on any product, pick 1–5 stars, write a short
+comment, and the review appears on that product and in the Reviews section
+right away. No extra Google Form to set up.
 
-Once set up: a "Rate This Product" link appears on every product card (and
-a general "Rate A Product You've Bought" button above the Reviews section).
-Customers pick 1–5 stars and write a comment, you approve genuine ones, and
-the site automatically starts showing the **real** average rating on that
-product's card and the comment in the Reviews section — nothing invented,
-nothing typed in by you.
-
-### Step 1 — Build the Google Form
-
-Create a new Google Form with these questions, **using these exact titles**
-(the site matches columns by name, so exact spelling matters):
-
-| Question | Type | Required |
-|---|---|---|
-| Product Name | Short answer | Yes |
-| Your Name | Short answer | No |
-| Rating | Linear scale, 1 to 5 | Yes |
-| Review | Paragraph | Yes |
-
-### Step 2 — Get a pre-filled link
-
-1. Open the live form (Preview — the eye icon, top right).
-2. Type exactly `PRODUCT_NAME_HERE` into the **Product Name** field. Leave
-   everything else blank.
-3. Click **⋮ (More) → Get pre-filled link**, then **Get link** and copy it.
-4. Paste that link into `js/config.js` as `reviewFormUrl`.
-
-The site replaces `PRODUCT_NAME_HERE` with the real product name whenever
-someone clicks "Rate This Product" on a specific item — so their form opens
-with the right product already filled in.
-
-### Step 3 — Connect a Sheet and add moderation
-
-1. Back in the Form editor, go to the **Responses** tab → click the green
-   Sheets icon → **Create a new spreadsheet**.
-2. In that new sheet, add one more column header after the last one:
-   **Approved**.
-3. **File → Share → Publish to web** → select that sheet → format **CSV** →
-   Publish → copy the link.
-4. Paste it into `js/config.js` as `reviewsCsvUrl`.
-
-### Step 4 — Your day-to-day moderation
-
-Every new review lands as a new row with **Approved** blank — it stays
-completely invisible on the site until you type **TRUE** next to it. Read
-each one, delete anything spammy or fake, and approve the genuine ones.
-Nothing else to do — the site re-checks automatically.
-
-Product ratings entered manually in the *Products* sheet (the Rating/
-Reviews columns from Part 2) are only ever shown as a fallback before this
-system is connected — once `reviewsCsvUrl` is set, real customer reviews
-take over completely, per product.
+Ratings live on the website, not in the product sheet. The Rating / Reviews
+columns in the sheet are ignored so the shop never shows made-up scores.
 
 ## Part 6 — About showing up in Google searches
 

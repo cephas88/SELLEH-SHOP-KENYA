@@ -672,6 +672,25 @@ button {
   gap: 6px;
   flex: 1;
 }
+.product-open {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+}
+.product-open .product-body {
+  padding-bottom: 4px;
+  flex: 0;
+}
+.product-body-rest {
+  padding-top: 8px;
+}
 .product-cat {
   font-size: 0.7rem;
   text-transform: uppercase;
@@ -735,6 +754,11 @@ button {
   text-decoration-color: transparent;
   margin-left: auto;
   transition: text-decoration-color 0.2s ease, color 0.2s ease;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
 }
 .rate-link:hover {
   color: var(--gold-light);
@@ -803,6 +827,190 @@ button {
 }
 .empty-state h3 {
   color: var(--white);
+}
+.catalog-empty .btn {
+  margin-top: 18px;
+}
+
+.reviews-empty {
+  text-align: center;
+  color: var(--gray);
+  max-width: 540px;
+  margin: 0 auto 10px;
+  line-height: 1.7;
+}
+
+.in-stock-seo {
+  padding-bottom: 72px;
+}
+.seo-product-list {
+  columns: 2;
+  column-gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--gray);
+  font-size: 0.95rem;
+  line-height: 1.9;
+}
+.seo-product-list a {
+  color: var(--gold-light);
+  text-decoration: none;
+}
+.seo-product-list a:hover {
+  text-decoration: underline;
+}
+
+.hp-field {
+  position: absolute !important;
+  left: -9999px !important;
+  height: 0 !important;
+  width: 0 !important;
+  opacity: 0 !important;
+}
+
+/* ── Product modal ────────────────────────────────────────────────────── */
+.product-modal[hidden] {
+  display: none !important;
+}
+.product-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+.product-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72);
+}
+.product-modal-panel {
+  position: relative;
+  z-index: 1;
+  width: min(960px, 100%);
+  max-height: calc(100vh - 36px);
+  overflow: auto;
+  background: var(--charcoal);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+}
+.pm-close {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  z-index: 2;
+  background: none;
+  border: 0;
+  color: var(--white);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.pm-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.pm-media img {
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+  display: block;
+}
+.pm-info {
+  padding: 32px 28px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.pm-info h2 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+.pm-desc {
+  color: var(--gray);
+  line-height: 1.7;
+  margin: 0;
+}
+.review-form {
+  margin-top: 14px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.review-form h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+.review-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: var(--gray);
+}
+.review-form input,
+.review-form textarea {
+  background: var(--black-soft);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--white);
+  padding: 10px 12px;
+  font: inherit;
+}
+.star-picker {
+  display: flex;
+  gap: 4px;
+}
+.star-picker button {
+  background: none;
+  border: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  color: #3a3a3a;
+  cursor: pointer;
+  line-height: 1;
+}
+.star-picker button.on,
+.star-picker button:hover {
+  color: var(--gold);
+}
+.review-form-error {
+  color: #ff8b8b;
+  min-height: 1.2em;
+  margin: 0;
+  font-size: 0.85rem;
+}
+.review-form-success {
+  color: var(--gold-light);
+  font-weight: 600;
+}
+.pm-review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+.pm-review {
+  background: var(--black-soft);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+.pm-review strong {
+  display: block;
+  margin: 4px 0;
+}
+.pm-review p {
+  margin: 0;
+  color: var(--gray);
+  font-size: 0.9rem;
 }
 
 /* ── Testimonials ─────────────────────────────────────────────────────── */
@@ -1164,6 +1372,12 @@ button {
   }
   .testimonial-grid {
     grid-template-columns: 1fr;
+  }
+  .pm-grid {
+    grid-template-columns: 1fr;
+  }
+  .seo-product-list {
+    columns: 1;
   }
   .location-grid {
     grid-template-columns: 1fr;

@@ -1,0 +1,11 @@
+{
+  "name": "selleh-shop-kenya",
+  "private": true,
+  "description": "Selleh Shop Kenya website",
+  "scripts": {
+    "build": "node scripts/generate-seo.js"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^9.1.6"
+  }
+}
