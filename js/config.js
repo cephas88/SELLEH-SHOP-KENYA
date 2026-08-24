@@ -27,7 +27,7 @@ const CONFIG = {
   // ── LIVE PRODUCT FEED ────────────────────────────────────────────
   // Catalog Google Sheet (edit in Drive):
   // https://docs.google.com/spreadsheets/d/1H9ezmoO80dwyS1yc2wxSMUBo_xf6VPDNkeNf7IfCd1A/edit
-  sheetCsvUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9E155mSDJImVmnI48IfC7GZP5bAOhzWpAZ6EZfk00ktdxKkydzbPDcg1KIK7FW8NDPjvByCE_NLDR/pub?gid=2109747360&single=true&output=csv",
+  sheetCsvUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vR1R6_3G1OF6-4cKiyseWOG4L2Zr9nTRvYktzLFjNc7gKDg6NO63zrZV_NU2SNsmGVoCZ8QSab_1Oin/pub?gid=1279991868&single=true&output=csv",
 
   // How often (in minutes) the page re-checks the sheet for changes
   // while a visitor is browsing, in addition to loading fresh data

@@ -9,7 +9,7 @@ const https = require("https");
 const ROOT = path.resolve(__dirname, "..");
 const SITE = "https://sellehshopkenya.co.ke";
 const SHEET =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9E155mSDJImVmnI48IfC7GZP5bAOhzWpAZ6EZfk00ktdxKkydzbPDcg1KIK7FW8NDPjvByCE_NLDR/pub?gid=2109747360&single=true&output=csv";
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vR1R6_3G1OF6-4cKiyseWOG4L2Zr9nTRvYktzLFjNc7gKDg6NO63zrZV_NU2SNsmGVoCZ8QSab_1Oin/pub?gid=1279991868&single=true&output=csv";
 
 function fetchText(url) {
   return new Promise((resolve, reject) => {
