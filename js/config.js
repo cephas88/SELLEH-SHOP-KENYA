@@ -23,19 +23,10 @@ const CONFIG = {
   },
 
   // ── LIVE PRODUCT FEED ────────────────────────────────────────────
-  // The catalog Google Sheet is already in your Drive:
+  // Catalog Google Sheet (edit in Drive):
   // https://docs.google.com/spreadsheets/d/1DZjoMganpZf033Fl3NOMnoRVIz0aXtpOETaOgWSt62w/edit
-  //
-  // One last step so the website can read it (takes 30 seconds):
-  //   File → Share → Publish to web
-  //   Link: the "Products" tab
-  //   Type: Comma-separated values (.csv)
-  //   Publish → copy the link (starts with …/spreadsheets/d/e/2PACX-…/pub?output=csv)
-  //   Paste that published URL below.
-  //
-  // Leave EMPTY ("") until that published CSV link is pasted — the site
-  // will keep showing sample products until then.
-  sheetCsvUrl: "",
+  // Published CSV below — the website reads this automatically.
+  sheetCsvUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9E155mSDJImVmnI48IfC7GZP5bAOhzWpAZ6EZfk00ktdxKkydzbPDcg1KIK7FW8NDPjvByCE_NLDR/pub?gid=2109747360&single=true&output=csv",
 
   // How often (in minutes) the page re-checks the sheet for changes
   // while a visitor is browsing, in addition to loading fresh data
