@@ -220,7 +220,7 @@
   }
 
   function loadReviews() {
-    fetch(reviewsApi(), { headers: { Accept: "application/json" } })
+    fetch(reviewsApi() + (reviewsApi().includes("?") ? "&" : "?") + "t=" + Date.now(), { headers: { Accept: "application/json" } })
       .then((res) => (res.ok ? res.json() : { reviews: [] }))
       .then((data) => {
         const list = Array.isArray(data.reviews) ? data.reviews : Array.isArray(data) ? data : [];
