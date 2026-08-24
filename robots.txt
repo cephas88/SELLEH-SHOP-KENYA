@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sellehshopkenya.co.ke/sitemap.xml

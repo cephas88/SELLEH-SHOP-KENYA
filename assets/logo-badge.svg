@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Selleh Shop Kenya">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2d675"/>
+      <stop offset="55%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#a8842a"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="93" fill="#0a0a0a" stroke="url(#g)" stroke-width="7"/>
+  <circle cx="100" cy="100" r="83" fill="none" stroke="url(#g)" stroke-width="1" opacity="0.5"/>
+  <text x="100" y="126" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="700" text-anchor="middle">
+    <tspan fill="url(#g)">S</tspan><tspan fill="#ffffff">K</tspan>
+  </text>
+  <g transform="translate(114,126) scale(1.15)" fill="none" stroke="url(#g)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+    <circle cx="6" cy="20" r="2" fill="url(#g)" stroke="none"/>
+    <circle cx="18" cy="20" r="2" fill="url(#g)" stroke="none"/>
+  </g>
+</svg>
