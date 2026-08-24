@@ -1,5 +1,5 @@
 [build]
-  command = "node scripts/generate-seo.js"
+  command = "node scripts/prepare-catalog.js && node scripts/generate-seo.js"
   publish = "."
 
 [functions]
@@ -22,3 +22,8 @@
   for = "/api/*"
   [headers.values]
     Cache-Control = "no-store"
+
+[[headers]]
+  for = "/catalog.json"
+  [headers.values]
+    Cache-Control = "public, max-age=60, must-revalidate"

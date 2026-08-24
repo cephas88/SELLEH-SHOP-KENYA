@@ -3,7 +3,8 @@
   "private": true,
   "description": "Selleh Shop Kenya website",
   "scripts": {
-    "build": "node scripts/generate-seo.js"
+    "build": "node scripts/prepare-catalog.js && node scripts/generate-seo.js",
+    "prepare-catalog": "node scripts/prepare-catalog.js"
   },
   "dependencies": {
     "@netlify/blobs": "^9.1.6"
