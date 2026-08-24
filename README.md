@@ -24,128 +24,58 @@ switch to your real catalog — nothing else on the site needs to change.
 
 ---
 
-## Part 1 — Put the site online: GitHub + Netlify + your domain
+## Part 1 — Site status (GitHub + Netlify + domain)
 
-This project is set up to deploy via **Netlify's GitHub integration**: push
-code to GitHub, Netlify auto-deploys every change, and `sellehshopkenya.co.ke`
-points at it. Full walkthrough below in the chat — short version:
+The shop is already live:
 
-1. Push this folder to a new GitHub repository.
-2. In Netlify: **Add new site → Import an existing project → GitHub** →
-   pick the repo. Build command: none. Publish directory: `.` (the repo
-   root) — `netlify.toml` already has this set.
-3. In Netlify **Domain settings**, add `sellehshopkenya.co.ke`, then update
-   your DNS at your domain registrar with the records Netlify shows you.
-4. From then on, every `git push` auto-deploys — including product changes
-   if you ever move off the Google Sheet, and any future design changes.
+- Website: [https://sellehshopkenya.co.ke](https://sellehshopkenya.co.ke)
+- GitHub: `cephas88/SELLEH-SHOP-KENYA` (Netlify auto-deploys every push to `main`)
+- Catalog sheet: [Selleh Shop Kenya — Products](https://docs.google.com/spreadsheets/d/1DZjoMganpZf033Fl3NOMnoRVIz0aXtpOETaOgWSt62w/edit)
 
-The site's canonical URLs (`index.html`, `sitemap.xml`, `robots.txt`) are
-already set to `https://sellehshopkenya.co.ke/`.
+Until the sheet is published (Part 2), the site shows sample placeholder products. After the published CSV link is saved in `js/config.js`, the live catalog takes over.
 
-*(If you'd rather not use GitHub, the fastest alternative is dragging this
-folder onto [app.netlify.com/drop](https://app.netlify.com/drop) — but then
-updates require re-dragging the folder each time instead of just `git push`.)*
+The site's canonical URLs (`index.html`, `sitemap.xml`, `robots.txt`) are set to `https://sellehshopkenya.co.ke/`.
 
 ---
 
 ## Part 2 — Update products from Google Sheets (no code)
 
-This is the "base" you asked about: a Google Sheet becomes your product
-database. Edit the sheet, and the website picks up the changes automatically
-— no redeploying, no developer needed.
+Your live catalog sheet is already in Google Drive:
 
-### Step 1 — Create the sheet
+**[Selleh Shop Kenya — Products](https://docs.google.com/spreadsheets/d/1DZjoMganpZf033Fl3NOMnoRVIz0aXtpOETaOgWSt62w/edit)**
 
-The fastest way to start: open [products-template.csv](products-template.csv)
-in this project, then in Google Sheets go to **File → Import → Upload**,
-choose that file, and select "Replace current sheet". You'll get a sheet
-with the right headers and three example rows already filled in correctly
-— edit or delete those rows and add your real products below them.
+- **Category, Badge, In Stock** are dropdowns — click the cell and pick. Don't type, or you'll create duplicate category tabs on the site.
+- **Photos:** do **not** use Insert → Image in cell. Upload each photo at [imgbb.com](https://imgbb.com) (no account needed), copy the **Direct link** (it ends in `.jpg` / `.png` / `.webp`), and paste it into the **Image** column. The **Preview** column then shows the photo inside the sheet so you know the link works.
+- Blank rows are ignored. The EXAMPLE row is skipped by the website automatically — delete it when you start adding real products.
+- To add a new category: Products tab → click a Category cell → **Data → Data validation** → add another item.
 
-(Or start from scratch — create a new Google Sheet with exactly these
-column headers in row 1:)
+### Publish the sheet so the website can read it (one-time, 30 seconds)
 
-| Column | Required | Example | Notes |
+1. Open the sheet above.
+2. **File → Share → Publish to web**.
+3. Under "Link", choose the **Products** tab.
+4. Change the type to **Comma-separated values (.csv)**.
+5. Click **Publish**, copy the link (`https://docs.google.com/spreadsheets/d/e/2PACX-…/pub?output=csv`).
+6. Paste that link in chat — it goes into `js/config.js` as `sheetCsvUrl`. After that you never touch the code again.
+
+Edit the sheet anytime: change a price, add a row, set In Stock to FALSE. The site picks it up on the next page load (Google's cache can take 1–5 minutes).
+
+### What each column means
+
+| Column | Required | How you fill it | Notes |
 |---|---|---|---|
-| Name | Yes | Wireless Bluetooth Earbuds | Product title |
-| Category | Yes | Electronics & Gadgets | Products with the same category get grouped into a filter tab automatically |
-| Price | Yes | 1999 | Numbers only, in KES |
-| Old Price | No | 3500 | Leave blank if not discounted. Adding this shows a strikethrough + "% off" badge |
-| Image | Yes | (see Step 2) | Direct link to a product photo |
-| Rating | No | 4.6 | A number from 0–5. Leave blank to default to 0 |
-| Reviews | No | 128 | Number of reviews, just for display |
-| Badge | No | Best Seller | Any short label — e.g. New, Hot, Best Seller. Leave blank for none |
-| Description | No | Crisp sound, long battery life | Not shown on the card yet, reserved for future use |
-| In Stock | No | TRUE | Write FALSE (or "No") to mark sold out — the button changes to "Notify Me" automatically |
-
-You can add as many rows (products) and as many different Category values as
-you like — new categories appear on the site automatically as filter tabs.
-
-**Optional but recommended — turn Category / Badge / In Stock into
-dropdowns**, so you (or anyone helping you) click a choice instead of typing
-and risking a typo that creates a duplicate category by accident:
-
-1. Click the column letter to select the whole column (**B** for Category,
-   **H** for Badge, **J** for In Stock).
-2. **Data → Data validation → Add rule.**
-3. Criteria: **Dropdown** → add each option as its own item:
-   - **Category:** your list of categories (start with Electronics &
-     Gadgets, Fashion & Accessories, Home & Kitchen, Beauty & Personal
-     Care, Kids & Baby, Sports & Outdoor — edit anytime).
-   - **Badge:** leave blank, New, Hot, Best Seller (these three get their
-     own color on the site; anything else still works, just shows in the
-     default gold badge style).
-   - **In Stock:** TRUE, FALSE.
-4. Under "Advanced options," choose **Reject input** so a typo can't sneak
-   through.
-5. Click Done. This only changes how you *enter* data in Sheets — the
-   website reads the same plain text either way, so nothing else changes.
-
-### Step 2 — Upload each product photo (via imgbb)
-
-Google Sheets' own "insert image in cell" doesn't work here — an image
-inserted that way is locked inside the spreadsheet with no public web
-address, so the website would just show a blank box. The site needs a real
-link to point to, so the workflow is upload-once-get-a-link, not typing:
-
-1. Go to **[imgbb.com](https://imgbb.com)** (no account needed).
-2. Drag your product photo in (or click to browse).
-3. Once it's uploaded, copy the **"Direct link"** it gives you (ends in
-   `.jpg`/`.png`).
-4. Paste that link into the Image column for that product.
-
-That's it — repeat per product. Avoid pasting a normal Google Drive share
-link instead; it usually won't display correctly on the site.
-
-### Step 3 — Publish the sheet so the website can read it
-
-1. In Google Sheets: **File → Share → Publish to web**.
-2. Under "Link", choose the specific sheet/tab your products are on.
-3. Under "Embed", change it to **Comma-separated values (.csv)**.
-4. Click **Publish**, confirm, and copy the link it gives you (it will look
-   like `https://docs.google.com/spreadsheets/d/e/2PACX-xxxxx/pub?output=csv`).
-
-### Step 4 — Connect it to the website
-
-Open `js/config.js` and paste that link as the value of `sheetCsvUrl`:
-
-```js
-sheetCsvUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-xxxxx/pub?output=csv",
-```
-
-Save the file and redeploy (drag the folder into Netlify again, or push to
-GitHub if that's connected). From this point on, **you never need to touch
-the code again** — just edit the Google Sheet:
-
-- Change a price → it updates on the site.
-- Add a new row → a new product appears.
-- Set "In Stock" to FALSE → the item shows "Sold Out" automatically.
-
-The site re-reads the sheet every time someone opens the page, and also
-re-checks every 5 minutes for visitors who leave a tab open (you can change
-this in `config.js` via `refreshMinutes`). Note: Google's "Publish to web"
-cache can take a few minutes to reflect your latest edit — that delay is on
-Google's side, not the website.
+| Name | Yes | Type | Product title |
+| Category | Yes | **Dropdown** | Same spelling every time = one filter tab on the site |
+| Price | Yes | Number | KES, numbers only (1999 not "KES 1,999") |
+| Old Price | No | Number | Leave blank if not discounted. Shows strike-through + % off |
+| Image | Yes | Paste imgbb **Direct link** | Upload at imgbb.com → copy Direct link → paste here |
+| Preview | Auto | Leave it | Shows the photo in the sheet. Website ignores this column |
+| Rating | No | 0–5 | Leave 0 until real reviews are connected |
+| Reviews | No | Number | Leave 0 until real reviews are connected |
+| Badge | No | **Dropdown** | New, Hot, Best Seller, or blank |
+| Description | No | Type | Short product line |
+| In Stock | Yes | **Dropdown** | TRUE = orderable. FALSE = Sold Out |
+| Status | Auto | Leave it | ✓ Ready means the row will appear on the site |
 
 ---
 

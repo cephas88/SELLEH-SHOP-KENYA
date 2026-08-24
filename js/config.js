@@ -23,13 +23,18 @@ const CONFIG = {
   },
 
   // ── LIVE PRODUCT FEED ────────────────────────────────────────────
-  // Leave this EMPTY ("") to use the sample products in
-  // js/products-data.js. Once you publish your Google Sheet
-  // (File → Share → Publish to web → CSV), paste that link below
-  // and the website will start pulling products straight from your
-  // sheet automatically — no code changes, no redeploy needed.
+  // The catalog Google Sheet is already in your Drive:
+  // https://docs.google.com/spreadsheets/d/1DZjoMganpZf033Fl3NOMnoRVIz0aXtpOETaOgWSt62w/edit
   //
-  // Full step-by-step instructions are in README.md.
+  // One last step so the website can read it (takes 30 seconds):
+  //   File → Share → Publish to web
+  //   Link: the "Products" tab
+  //   Type: Comma-separated values (.csv)
+  //   Publish → copy the link (starts with …/spreadsheets/d/e/2PACX-…/pub?output=csv)
+  //   Paste that published URL below.
+  //
+  // Leave EMPTY ("") until that published CSV link is pasted — the site
+  // will keep showing sample products until then.
   sheetCsvUrl: "",
 
   // How often (in minutes) the page re-checks the sheet for changes

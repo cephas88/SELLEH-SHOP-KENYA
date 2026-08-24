@@ -92,16 +92,31 @@
       return isNaN(n) ? "" : n;
     };
 
-    const falseValues = ["false", "no", "0", "outofstock", "soldout", "no"];
-    const inStockRaw = (row.instock || "").toLowerCase();
+    const falseValues = [
+      "false",
+      "no",
+      "0",
+      "outofstock",
+      "out of stock",
+      "soldout",
+      "sold out",
+      "n",
+    ];
+    const inStockRaw = String(row.instock || "")
+      .toLowerCase()
+      .replace(/[_-]+/g, " ")
+      .trim();
     const inStock = inStockRaw === "" ? true : !falseValues.includes(inStockRaw);
 
     const rating = Math.max(0, Math.min(5, parseFloat(row.rating) || 0));
     const reviews = parseInt(row.reviews, 10) || 0;
 
+    const name = String(row.name || "").trim();
+    if (!name) return null;
+
     return {
-      id: row.id || row.name || Math.random().toString(36).slice(2),
-      name: row.name || "Unnamed product",
+      id: row.id || name || Math.random().toString(36).slice(2),
+      name: name,
       category: row.category || "General",
       price: parsePrice(row.price) || 0,
       oldPrice: parsePrice(row.oldprice),
@@ -137,12 +152,18 @@
       header: true,
       skipEmptyLines: true,
       complete: function (results) {
-        const rows = (results.data || []).filter((r) => Object.keys(r).length > 1);
+        const rows = (results.data || []).filter((r) => {
+          const name = String(r.Name || r.name || "").trim();
+          if (!name) return false;
+          // Demo rows in the catalog sheet must never go live
+          if (/^example\b/i.test(name)) return false;
+          return true;
+        });
         if (!rows.length) {
           loadFallback();
           return;
         }
-        state.products = rows.map(normalizeRow).filter((p) => p.name);
+        state.products = rows.map(normalizeRow).filter((p) => p && p.name);
         state.usingLiveSheet = true;
         onProductsReady();
       },
